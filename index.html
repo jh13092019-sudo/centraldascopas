@@ -3,10 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Central da Copa — Tudo sobre a Copa 2026</title>
+<title>Copa do Mundo 2026: Tabela, Jogos de Hoje, Resultados e Placar Ao Vivo | Central da Copa</title>
+<meta name="description" content="Copa do Mundo 2026 ao vivo: tabela da copa atualizada, resultados dos jogos de hoje, jogo do dia, placar dos jogos da Copa do Mundo FIFA e jogos do Brasil rumo ao hexa. Escalação, Neymar, mascote, música da copa, história da Copa do Mundo e tudo sobre a próxima copa do mundo de futebol.">
+<meta name="keywords" content="copa do mundo, copa do mundo 2026, copa do mundo de futebol, copa do mundo FIFA, próxima copa do mundo, história copa do mundo, jogo hoje, jogo do dia, resultados dos jogos, jogos do dia, jogo amanhã, jogo da copa, tabela da copa, tabela de jogos, tabela de resultados, placar dos jogos, álbum de figurinhas, álbum da copa, jogos do brasil, rumo ao hexa, escalação, Neymar, mascote, música da copa, hino da copa, sede da copa">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Central da Copa">
+<link rel="canonical" href="https://centraldacopa.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Copa do Mundo 2026: Tabela, Jogos de Hoje e Resultados Ao Vivo | Central da Copa">
+<meta property="og:description" content="Tudo sobre a Copa do Mundo 2026: tabela atualizada, placar dos jogos de hoje, resultados, jogos do Brasil rumo ao hexa, escalação, Neymar, mascotes e música da copa.">
+<meta property="og:site_name" content="Central da Copa">
+<meta property="og:url" content="https://centraldacopa.com.br/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Copa do Mundo 2026: Tabela, Jogos de Hoje e Resultados Ao Vivo">
+<meta name="twitter:description" content="Tabela da copa, placar dos jogos, resultados de hoje e jogos do Brasil na Copa do Mundo 2026. Acompanhe tudo em tempo real.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "Copa do Mundo FIFA 2026",
+  "alternateName": "Copa do Mundo de Futebol 2026",
+  "startDate": "2026-06-11",
+  "endDate": "2026-07-19",
+  "location": [
+    {"@type":"Place","name":"Estados Unidos"},
+    {"@type":"Place","name":"México"},
+    {"@type":"Place","name":"Canadá"}
+  ],
+  "description": "A Copa do Mundo FIFA 2026 é a 23ª edição do torneio, primeira com 48 seleções, disputada em 16 cidades-sede dos Estados Unidos, México e Canadá entre 11 de junho e 19 de julho de 2026.",
+  "organizer": {"@type":"Organization","name":"FIFA"}
+}
+</script>
 <style>
 /* ===================== RESET & BASE ===================== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -154,7 +185,16 @@ img { display: block; max-width: 100%; }
 @keyframes cdPulse { from { text-shadow: 0 0 15px rgba(255,223,0,0.2); } to { text-shadow: 0 0 25px rgba(255,223,0,0.6); } }
 .cd-lbl { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); margin-top: 4px; display: block; }
 
-/* ===================== MASCOTES ===================== */
+/* ===================== JOGO DE HOJE ===================== */
+#jogo-hoje { padding: 56px 0 24px; }
+.hoje-banner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, rgba(231,76,60,0.12), rgba(0,156,59,0.08)); border: 1px solid rgba(231,76,60,0.3); border-radius: var(--radius-lg); padding: 24px 28px; }
+.hoje-banner-left { display: flex; align-items: center; gap: 14px; }
+.hoje-live-dot { width: 12px; height: 12px; background: #e74c3c; border-radius: 50%; box-shadow: 0 0 12px #e74c3c; animation: pulse 1.4s ease-in-out infinite; flex-shrink: 0; }
+.hoje-banner-title { font-family: var(--font-display); font-size: 1.6rem; letter-spacing: 1px; color: #fff; }
+.hoje-banner-sub { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+.hoje-jogos-mini { display: flex; gap: 10px; flex-wrap: wrap; }
+.hoje-mini-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 14px; font-size: 13px; font-weight: 600; color: var(--text); display: flex; align-items: center; gap: 8px; }
+.hoje-mini-card .mini-hora { font-size: 11px; color: var(--yellow); font-weight: 700; }
 #mascotes { padding: 80px 0 40px; }
 .mascotes-strip {
   display: flex;
@@ -289,6 +329,17 @@ img { display: block; max-width: 100%; }
 .jogo-datetime { font-size: 12px; color: var(--text-muted); font-weight: 500; }
 .jogo-local { font-size: 11px; color: var(--text-muted); font-weight: 500; display: flex; align-items: center; gap: 4px; }
 .badge-em-breve { display: inline-flex; align-items: center; padding: 3px 10px; background: rgba(255,223,0,0.1); border: 1px solid rgba(255,223,0,0.3); border-radius: 100px; font-size: 11px; font-weight: 700; color: var(--yellow); letter-spacing: .5px; }
+.badge-finalizado { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; background: rgba(122,144,184,0.15); border: 1px solid rgba(122,144,184,0.35); border-radius: 100px; font-size: 11px; font-weight: 700; color: var(--text-muted); letter-spacing: .5px; }
+.badge-livescore { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; background: rgba(231,76,60,0.15); border: 1px solid rgba(231,76,60,0.4); border-radius: 100px; font-size: 11px; font-weight: 700; color: #ff6b5b; letter-spacing: .5px; }
+.badge-livescore::before { content: ''; width: 6px; height: 6px; background: #ff6b5b; border-radius: 50%; animation: pulse 1.4s ease-in-out infinite; }
+.jogo-placar { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 16px; }
+.jogo-placar .gol { font-family: var(--font-display); font-size: 2.6rem; letter-spacing: 1px; color: #fff; min-width: 38px; text-align: center; }
+.jogo-placar .gol-sep { font-family: var(--font-display); font-size: 1.4rem; color: var(--text-muted); }
+.jogo-card.vencedor-casa .jogo-team:first-child .team-nm,
+.jogo-card.vencedor-fora .jogo-team:last-child .team-nm { color: var(--yellow); }
+.jogo-resultado-resumo { font-size: 11px; color: var(--text-muted); text-align: center; margin-top: -8px; margin-bottom: 14px; }
+.btn-reminder.disabled-finalizado { opacity: .5; cursor: default; }
+.btn-reminder.disabled-finalizado:hover { border-color: rgba(255,255,255,0.12); color: var(--text-muted); background: transparent; }
 .badge-brasil { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; background: rgba(0,156,59,0.15); border: 1px solid rgba(0,156,59,0.4); border-radius: 100px; font-size: 11px; font-weight: 700; color: var(--green-light); letter-spacing: .5px; }
 .btn-reminder { width: 100%; padding: 10px; background: transparent; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text-muted); font-family: var(--font-body); font-size: 13px; font-weight: 600; cursor: pointer; transition: all .25s; display: flex; align-items: center; justify-content: center; gap: 8px; }
 .btn-reminder:hover { border-color: var(--yellow); color: var(--yellow); background: rgba(255,223,0,0.05); }
@@ -370,7 +421,17 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
 .footer-bottom span { display: flex; align-items: center; gap: 6px; }
 .footer-bottom .heart { color: #e74c3c; }
 
-/* ===================== DIVIDERS ===================== */
+/* ===================== HISTORIA / SEDE / PROXIMA ===================== */
+#historia { padding: 90px 0; background: var(--bg-darker); }
+.historia-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }
+.historia-card { background: var(--bg-card); border: 1px solid rgba(255,255,255,0.07); border-radius: var(--radius-lg); padding: 32px; }
+.historia-card h3 { font-family: var(--font-display); font-size: 1.5rem; letter-spacing: 1px; color: var(--yellow); margin-bottom: 14px; }
+.historia-card p { color: var(--text-muted); font-size: 15px; line-height: 1.75; }
+.historia-card p + p { margin-top: 12px; }
+
+@media (max-width: 768px) {
+  .historia-grid { grid-template-columns: 1fr; }
+}
 .section-divider { width: 60px; height: 3px; background: linear-gradient(90deg, var(--green), var(--yellow)); border-radius: 2px; margin-top: 16px; }
 
 /* ===================== REVEAL ===================== */
@@ -432,12 +493,12 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
       </a>
       <ul class="nav-links">
         <li><a href="#hero">Início</a></li>
+        <li><a href="#jogo-hoje">Jogo Hoje</a></li>
         <li><a href="#grupos">Tabela</a></li>
-        <li><a href="#jogos">Jogos</a></li>
-        <li><a href="#album">Álbum</a></li>
-        <li><a href="#selecao">Seleção</a></li>
+        <li><a href="#jogos">Resultados</a></li>
+        <li><a href="#selecao">Brasil</a></li>
       </ul>
-      <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-primary nav-cta" style="font-size:13px;padding:10px 20px;">Ver Tabela Agora</a>
+      <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-primary nav-cta" style="font-size:13px;padding:10px 20px;">Ver Tabela Agora</a>
       <div class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </div>
@@ -448,11 +509,12 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
   <a href="#hero" class="mobile-link">Início</a>
+  <a href="#jogo-hoje" class="mobile-link">Jogo Hoje</a>
   <a href="#grupos" class="mobile-link">Tabela</a>
-  <a href="#jogos" class="mobile-link">Jogos</a>
+  <a href="#jogos" class="mobile-link">Resultados</a>
   <a href="#album" class="mobile-link">Álbum</a>
-  <a href="#selecao" class="mobile-link">Seleção</a>
-  <div style="margin-top:24px;"><a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-primary">Ver Tabela Agora</a></div>
+  <a href="#selecao" class="mobile-link">Brasil</a>
+  <div style="margin-top:24px;"><a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-primary">Ver Tabela Agora</a></div>
 </div>
 
 <!-- HERO -->
@@ -471,27 +533,48 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   </svg>
   <div class="container">
     <div class="hero-content">
-      <div class="hero-badge reveal">🏆 Copa do Mundo 2026 — EUA, México &amp; Canadá · 11 Jun – 19 Jul</div>
+      <div class="hero-badge reveal">🔴 Copa do Mundo 2026 em andamento — 1ª Rodada · EUA, México &amp; Canadá</div>
       <h1 class="hero-title reveal">
         A COPA 2026<br>
-        <span class="highlight">CHEGOU.</span>
-        VOCÊ<br>ESTÁ PRONTO?
+        <span class="highlight">ROLOU.</span>
+        VEJA O<br>JOGO DE HOJE
       </h1>
       <p class="hero-subtitle reveal">
-        Tabelas, jogos, figurinhas e tudo sobre a <strong>Seleção Brasileira</strong> — atualizados em tempo real. 48 seleções, 104 jogos, 16 cidades.
+        Tabela da copa, placar dos jogos e resultados de hoje da <strong>Copa do Mundo FIFA 2026</strong> — atualizados em tempo real. Acompanhe os jogos do Brasil rumo ao hexa, a escalação com Neymar, mascotes, história da Copa do Mundo e muito mais. 48 seleções, 104 jogos, 16 cidades.
       </p>
       <div class="hero-buttons reveal">
-        <a href="#jogos" class="btn btn-primary">⚽ Ver Tabela de Jogos</a>
+        <a href="#jogos" class="btn btn-primary">⚽ Ver Resultados dos Jogos</a>
         <a href="#album" class="btn btn-outline">📒 Álbum de Figurinhas</a>
       </div>
       <div class="reveal">
-        <div class="countdown-label-top">Contagem regressiva — Abertura: México x África do Sul · Azteca · 16h</div>
+        <div class="countdown-label-top">Próximo jogo do Brasil — Brasil x Haiti · 19 de junho · 21h30 BRT</div>
         <div class="countdown" id="countdown">
           <div class="cd-unit"><span class="cd-num" id="cd-days">--</span><span class="cd-lbl">Dias</span></div>
           <div class="cd-unit"><span class="cd-num" id="cd-hours">--</span><span class="cd-lbl">Horas</span></div>
           <div class="cd-unit"><span class="cd-num" id="cd-mins">--</span><span class="cd-lbl">Min</span></div>
           <div class="cd-unit"><span class="cd-num" id="cd-secs">--</span><span class="cd-lbl">Seg</span></div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOGO DE HOJE -->
+<section id="jogo-hoje">
+  <div class="container">
+    <div class="hoje-banner reveal">
+      <div class="hoje-banner-left">
+        <span class="hoje-live-dot"></span>
+        <div>
+          <div class="hoje-banner-title">Jogo de Hoje — Quarta, 17 de Junho</div>
+          <div class="hoje-banner-sub">Confira o jogo do dia, horários e onde assistir. Veja também os resultados dos jogos de ontem e o jogo amanhã na agenda completa da Copa.</div>
+        </div>
+      </div>
+      <div class="hoje-jogos-mini">
+        <div class="hoje-mini-card"><span class="mini-hora">14h</span> 🇵🇹 Portugal x RD Congo 🇨🇩</div>
+        <div class="hoje-mini-card"><span class="mini-hora">17h</span> 🏴 Inglaterra x Croácia 🇭🇷</div>
+        <div class="hoje-mini-card"><span class="mini-hora">20h</span> 🇬🇭 Gana x Panamá 🇵🇦</div>
+        <div class="hoje-mini-card"><span class="mini-hora">23h</span> 🇺🇿 Uzbequistão x Colômbia 🇨🇴</div>
       </div>
     </div>
   </div>
@@ -537,20 +620,29 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   <div class="container">
     <div style="text-align:center;margin-bottom:32px;" class="reveal">
       <span class="section-label">Trilha Sonora Oficial</span>
-      <h2 class="section-title">Músicas da <span>Copa 2026</span></h2>
+      <h2 class="section-title">Hino e Músicas da <span>Copa 2026</span></h2>
       <div class="section-divider" style="margin:16px auto 0;"></div>
+      <p style="color:var(--text-muted);font-size:15px;margin-top:16px;max-width:560px;margin-left:auto;margin-right:auto;">A música da copa virou parte da identidade do torneio. Conheça o hino da copa e as faixas que estão embalando o Mundial 2026.</p>
     </div>
     <div class="musica-inner reveal">
       <div class="musica-card">
         <div class="musica-icon">🎵</div>
         <div class="musica-info">
-          <div class="musica-label">Single oficial FIFA</div>
-          <div class="musica-titulo">Lighter</div>
-          <div class="musica-artistas">Jelly Roll &amp; Carín León · Prod. Cirkut</div>
+          <div class="musica-label">Hino Oficial FIFA 2026</div>
+          <div class="musica-titulo">DNA</div>
+          <div class="musica-artistas">Andrea Bocelli, David Guetta, Megan Thee Stallion &amp; EJAE</div>
         </div>
       </div>
       <div class="musica-card">
         <div class="musica-icon">🎤</div>
+        <div class="musica-info">
+          <div class="musica-label">Tema oficial FIFA Sound</div>
+          <div class="musica-titulo">Goals</div>
+          <div class="musica-artistas">LISA, Anitta &amp; Rema</div>
+        </div>
+      </div>
+      <div class="musica-card">
+        <div class="musica-icon">🎶</div>
         <div class="musica-info">
           <div class="musica-label">Tema oficial Telemundo</div>
           <div class="musica-titulo">Somos Más</div>
@@ -566,33 +658,33 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   <div class="container">
     <div class="features-header">
       <span class="section-label">Por que a Central da Copa?</span>
-      <h2 class="section-title">O seu portal<br><span>definitivo</span> do futebol</h2>
+      <h2 class="section-title">O seu portal<br><span>definitivo</span> da Copa do Mundo</h2>
       <div class="section-divider"></div>
     </div>
     <div class="features-grid">
       <div class="feature-card reveal reveal-delay-1">
         <div class="feature-icon">🏆</div>
-        <div class="feature-title">Tabela Atualizada</div>
-        <p class="feature-desc">12 grupos, 48 seleções. Acompanhe a classificação e o caminho até a final no MetLife Stadium em 19 de julho.</p>
+        <div class="feature-title">Tabela da Copa Atualizada</div>
+        <p class="feature-desc">12 grupos, 48 seleções. Acompanhe a tabela de jogos, a classificação e o caminho até a final no MetLife Stadium em 19 de julho.</p>
         <a href="#grupos" class="feature-link">Ver tabela →</a>
       </div>
       <div class="feature-card reveal reveal-delay-2">
         <div class="feature-icon">⚽</div>
-        <div class="feature-title">Jogos ao Vivo</div>
-        <p class="feature-desc">104 partidas, horários BRT, sedes e resultados — tudo filtrado por rodada e por grupo. Nunca mais perca um lance.</p>
-        <a href="#jogos" class="feature-link">Ver jogos →</a>
+        <div class="feature-title">Resultados dos Jogos</div>
+        <p class="feature-desc">Placar dos jogos de hoje, jogo do dia, horários em BRT, sedes e resultados — tudo filtrado por rodada e por grupo. Nunca mais perca o jogo de amanhã.</p>
+        <a href="#jogos" class="feature-link">Ver resultados →</a>
       </div>
       <div class="feature-card reveal reveal-delay-3">
         <div class="feature-icon">📒</div>
-        <div class="feature-title">Álbum Digital</div>
+        <div class="feature-title">Álbum de Figurinhas</div>
         <p class="feature-desc">Monte sua coleção online! Cole figurinhas, troque com amigos e complete o álbum da Copa 2026 gratuitamente.</p>
         <a href="#album" class="feature-link">Abrir álbum →</a>
       </div>
       <div class="feature-card reveal reveal-delay-4">
         <div class="feature-icon">🇧🇷</div>
-        <div class="feature-title">Seleção Brasileira</div>
-        <p class="feature-desc">Grupo C: Brasil, Marrocos, Escócia e Haiti. Carlo Ancelotti na missão de encerrar 24 anos de jejum e conquistar o hexa.</p>
-        <a href="#selecao" class="feature-link">Ver seleção →</a>
+        <div class="feature-title">Jogos do Brasil — Rumo ao Hexa</div>
+        <p class="feature-desc">Grupo C: Brasil, Marrocos, Escócia e Haiti. Com Neymar de volta, Carlo Ancelotti busca encerrar o jejum e levar o Brasil ao hexa.</p>
+        <a href="#selecao" class="feature-link">Ver escalação →</a>
       </div>
     </div>
   </div>
@@ -603,11 +695,11 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   <div class="container">
     <div class="grupos-header reveal">
       <div>
-        <span class="section-label">Copa 2026 · Fase de Grupos</span>
-        <h2 class="section-title">Grupos da <span>Copa 2026</span></h2>
+        <span class="section-label">Copa 2026 · Fase de Grupos · Tabela da Copa</span>
+        <h2 class="section-title">Tabela de Grupos da <span>Copa 2026</span></h2>
         <div class="section-divider"></div>
       </div>
-      <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Ver todos os grupos →</a>
+      <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Ver todos os 12 grupos →</a>
     </div>
     <div class="grupos-grid">
       <!-- Grupo A -->
@@ -616,10 +708,10 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
         <table class="grupo-table">
           <thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead>
           <tbody>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇲🇽</span><span class="team-name">México</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇿🇦</span><span class="team-name">África do Sul</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇰🇷</span><span class="team-name">Coreia do Sul</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇨🇿</span><span class="team-name">Rep. Tcheca</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇲🇽</span><span class="team-name">México</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>+2</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇰🇷</span><span class="team-name">Coreia do Sul</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>1</td><td>+1</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇨🇿</span><span class="team-name">Rep. Tcheca</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>-1</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇿🇦</span><span class="team-name">África do Sul</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>-2</td></tr>
           </tbody>
         </table>
       </div>
@@ -629,10 +721,10 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
         <table class="grupo-table">
           <thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead>
           <tbody>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇨🇦</span><span class="team-name">Canadá</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇶🇦</span><span class="team-name">Catar</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇨🇭</span><span class="team-name">Suíça</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇮🇹</span><span class="team-name">Itália</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇧🇦</span><span class="team-name">Bósnia</span></div></td><td class="pts">1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇶🇦</span><span class="team-name">Catar</span></div></td><td class="pts">1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇨🇦</span><span class="team-name">Canadá</span></div></td><td class="pts">1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇨🇭</span><span class="team-name">Suíça</span></div></td><td class="pts">1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
           </tbody>
         </table>
       </div>
@@ -642,30 +734,56 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
         <table class="grupo-table">
           <thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead>
           <tbody>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇧🇷</span><span class="team-name">Brasil</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇲🇦</span><span class="team-name">Marrocos</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><span class="team-name">Escócia</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇭🇹</span><span class="team-name">Haiti</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🏴</span><span class="team-name">Escócia</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>+1</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇧🇷</span><span class="team-name">Brasil</span></div></td><td class="pts">1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇲🇦</span><span class="team-name">Marrocos</span></div></td><td class="pts">1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇭🇹</span><span class="team-name">Haiti</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>-1</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Grupo D -->
+      <div class="grupo-card reveal reveal-delay-4">
+        <div class="grupo-header">Grupo D — Los Angeles / Seattle / Santa Clara</div>
+        <table class="grupo-table">
+          <thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead>
+          <tbody>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇺🇸</span><span class="team-name">Estados Unidos</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>4</td><td>1</td><td>+3</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇦🇺</span><span class="team-name">Austrália</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>+2</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇹🇷</span><span class="team-name">Turquia</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>-2</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇵🇾</span><span class="team-name">Paraguai</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>4</td><td>-3</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Grupo E -->
+      <div class="grupo-card reveal reveal-delay-1">
+        <div class="grupo-header">Grupo E — Houston / Filadélfia / Nova Jersey</div>
+        <table class="grupo-table">
+          <thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead>
+          <tbody>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇩🇪</span><span class="team-name">Alemanha</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>7</td><td>1</td><td>+6</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇨🇮</span><span class="team-name">Costa do Marfim</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>+1</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇪🇨</span><span class="team-name">Equador</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>-1</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇨🇼</span><span class="team-name">Curaçao</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>7</td><td>-6</td></tr>
           </tbody>
         </table>
       </div>
       <!-- Grupo J - ARGENTINA -->
-      <div class="grupo-card reveal reveal-delay-4">
-        <div class="grupo-header">Grupo J — Dallas / Kansas City / San Francisco</div>
+      <div class="grupo-card reveal reveal-delay-2">
+        <div class="grupo-header">Grupo J — Dallas / Kansas City / Santa Clara</div>
         <table class="grupo-table">
           <thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead>
           <tbody>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇦🇷</span><span class="team-name">Argentina</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr class="classified"><td><div class="team-cell"><span class="flag">🇩🇿</span><span class="team-name">Argélia</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇦🇹</span><span class="team-name">Áustria</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-            <tr><td><div class="team-cell"><span class="flag">🇯🇴</span><span class="team-name">Jordânia</span></div></td><td class="pts">—</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇦🇹</span><span class="team-name">Áustria</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>3</td><td>1</td><td>+2</td></tr>
+            <tr class="classified"><td><div class="team-cell"><span class="flag">🇦🇷</span><span class="team-name">Argentina</span></div></td><td class="pts">3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>+3</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇯🇴</span><span class="team-name">Jordânia</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>3</td><td>-2</td></tr>
+            <tr><td><div class="team-cell"><span class="flag">🇩🇿</span><span class="team-name">Argélia</span></div></td><td class="pts">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>-3</td></tr>
           </tbody>
         </table>
       </div>
     </div>
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:20px;">
-      <p class="grupos-notice">🟢 Posições classificatórias · Tabela inicia com abertura em 11 de junho</p>
-      <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-primary" style="font-size:13px;padding:10px 22px;">📊 Ver todos os 12 grupos</a>
+      <p class="grupos-notice">🟢 Tabela de resultados atualizada após os jogos de 11 a 17 de junho · Resultados ao vivo da 1ª rodada da fase de grupos</p>
+      <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-primary" style="font-size:13px;padding:10px 22px;">📊 Ver todos os 12 grupos</a>
     </div>
   </div>
 </section>
@@ -675,185 +793,302 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   <div class="container">
     <div class="jogos-header reveal">
       <div>
-        <span class="section-label">Agenda Oficial</span>
-        <h2 class="section-title">Jogos da <span>Copa 2026</span></h2>
+        <span class="section-label">Tabela de Jogos · Resultados Atualizados</span>
+        <h2 class="section-title">Placar dos Jogos da <span>Copa 2026</span></h2>
         <div class="section-divider"></div>
       </div>
-      <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Ver agenda completa →</a>
+      <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Ver tabela de resultados completa →</a>
     </div>
 
     <!-- Tabs -->
     <div class="jogos-tabs reveal">
-      <button class="tab-btn active" onclick="showTab('rodada1')">1ª Rodada</button>
-      <button class="tab-btn" onclick="showTab('rodada2')">2ª Rodada</button>
-      <button class="tab-btn" onclick="showTab('rodada3')">3ª Rodada</button>
-      <button class="tab-btn" onclick="showTab('brasil')">🇧🇷 Brasil</button>
+      <button class="tab-btn active" onclick="showTab('hoje')">📅 Jogo Hoje (17/06)</button>
+      <button class="tab-btn" onclick="showTab('realizados')">✅ Resultados dos Jogos</button>
+      <button class="tab-btn" onclick="showTab('amanha')">➡️ Jogo Amanhã</button>
+      <button class="tab-btn" onclick="showTab('brasil')">🇧🇷 Jogos do Brasil</button>
     </div>
 
-    <!-- 1ª RODADA -->
-    <div class="jogos-panel active" id="panel-rodada1">
+    <!-- JOGO HOJE -->
+    <div class="jogos-panel active" id="panel-hoje">
       <div class="jogos-date-group">
-        <div class="jogos-date-label">11 de Junho (Qui) — Jogo de Abertura</div>
+        <div class="jogos-date-label">17 de Junho (Qua) — Jogo do Dia · 1ª Rodada</div>
         <div class="jogos-grid">
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo A <span class="badge-em-breve">Abertura</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇲🇽</span><span class="team-nm">México</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇿🇦</span><span class="team-nm">África do Sul</span></div>
+            <div class="jogo-grupo">Grupo J <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar">
+              <span class="flag-big">🇦🇷</span><span class="gol">3</span><span class="gol-sep">x</span><span class="gol">0</span><span class="flag-big">🇩🇿</span>
             </div>
+            <div class="jogo-resultado-resumo">Argentina vence a Argélia · Hat-trick de Messi</div>
             <div class="jogo-meta">
-              <div class="jogo-datetime">🕓 16:00 BRT</div>
-              <div class="jogo-local">📍 Azteca, Cidade do México</div>
+              <div class="jogo-datetime">🕑 02:00 BRT</div>
+              <div class="jogo-local">📍 Arrowhead Stadium, Kansas City</div>
             </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
           </div>
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo A <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇰🇷</span><span class="team-nm">Coreia do Sul</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇨🇿</span><span class="team-nm">Rep. Tcheca</span></div>
+            <div class="jogo-grupo">Grupo J <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar">
+              <span class="flag-big">🇦🇹</span><span class="gol">3</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇯🇴</span>
             </div>
+            <div class="jogo-resultado-resumo">Áustria vence a Jordânia</div>
             <div class="jogo-meta">
-              <div class="jogo-datetime">🕚 23:00 BRT</div>
-              <div class="jogo-local">📍 Guadalajara</div>
+              <div class="jogo-datetime">🕔 05:00 BRT</div>
+              <div class="jogo-local">📍 Levi's Stadium, Santa Clara</div>
             </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">12 de Junho (Sex)</div>
-        <div class="jogos-grid">
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo B <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇨🇦</span><span class="team-nm">Canadá</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇮🇹</span><span class="team-nm">Itália</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕓 16:00 BRT</div>
-              <div class="jogo-local">📍 Toronto</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
           </div>
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo D <span class="badge-em-breve">Em breve</span></div>
+            <div class="jogo-grupo">Grupo K <span class="badge-livescore">Em breve</span></div>
             <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇺🇸</span><span class="team-nm">Estados Unidos</span></div>
+              <div class="jogo-team"><span class="flag-big">🇵🇹</span><span class="team-nm">Portugal</span></div>
               <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇵🇾</span><span class="team-nm">Paraguai</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕙 22:00 BRT</div>
-              <div class="jogo-local">📍 Los Angeles</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">13 de Junho (Sáb) — Estreia do Brasil 🇧🇷</div>
-        <div class="jogos-grid">
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo B <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇶🇦</span><span class="team-nm">Catar</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇨🇭</span><span class="team-nm">Suíça</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕓 16:00 BRT</div>
-              <div class="jogo-local">📍 San Francisco</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card brasil">
-            <div class="jogo-grupo">Grupo C <span class="badge-brasil">🇧🇷 Brasil</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇲🇦</span><span class="team-nm">Marrocos</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕖 19:00 BRT</div>
-              <div class="jogo-local">📍 MetLife Stadium, NJ</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo C <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇭🇹</span><span class="team-nm">Haiti</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><span class="team-nm">Escócia</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕙 22:00 BRT</div>
-              <div class="jogo-local">📍 Boston</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">14 de Junho (Dom)</div>
-        <div class="jogos-grid">
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo E <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇩🇪</span><span class="team-nm">Alemanha</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇨🇼</span><span class="team-nm">Curaçao</span></div>
+              <div class="jogo-team"><span class="flag-big">🇨🇩</span><span class="team-nm">RD Congo</span></div>
             </div>
             <div class="jogo-meta">
               <div class="jogo-datetime">🕑 14:00 BRT</div>
-              <div class="jogo-local">📍 Houston</div>
+              <div class="jogo-local">📍 NRG Stadium, Houston</div>
             </div>
             <button class="btn-reminder">🔔 Lembrar do jogo</button>
           </div>
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo F <span class="badge-em-breve">Em breve</span></div>
+            <div class="jogo-grupo">Grupo L <span class="badge-livescore">Em breve</span></div>
             <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇳🇱</span><span class="team-nm">Holanda</span></div>
+              <div class="jogo-team"><span class="flag-big">🏴</span><span class="team-nm">Inglaterra</span></div>
               <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇯🇵</span><span class="team-nm">Japão</span></div>
+              <div class="jogo-team"><span class="flag-big">🇭🇷</span><span class="team-nm">Croácia</span></div>
             </div>
             <div class="jogo-meta">
               <div class="jogo-datetime">🕔 17:00 BRT</div>
-              <div class="jogo-local">📍 Dallas</div>
+              <div class="jogo-local">📍 AT&amp;T Stadium, Arlington</div>
             </div>
             <button class="btn-reminder">🔔 Lembrar do jogo</button>
           </div>
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo E <span class="badge-em-breve">Em breve</span></div>
+            <div class="jogo-grupo">Grupo L <span class="badge-livescore">Em breve</span></div>
             <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇨🇮</span><span class="team-nm">Costa do Marfim</span></div>
+              <div class="jogo-team"><span class="flag-big">🇬🇭</span><span class="team-nm">Gana</span></div>
               <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇪🇨</span><span class="team-nm">Equador</span></div>
+              <div class="jogo-team"><span class="flag-big">🇵🇦</span><span class="team-nm">Panamá</span></div>
             </div>
             <div class="jogo-meta">
               <div class="jogo-datetime">🕗 20:00 BRT</div>
-              <div class="jogo-local">📍 Filadélfia</div>
+              <div class="jogo-local">📍 BMO Field, Toronto</div>
+            </div>
+            <button class="btn-reminder">🔔 Lembrar do jogo</button>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo K <span class="badge-livescore">Em breve</span></div>
+            <div class="jogo-teams">
+              <div class="jogo-team"><span class="flag-big">🇺🇿</span><span class="team-nm">Uzbequistão</span></div>
+              <div class="jogo-vs">VS</div>
+              <div class="jogo-team"><span class="flag-big">🇨🇴</span><span class="team-nm">Colômbia</span></div>
+            </div>
+            <div class="jogo-meta">
+              <div class="jogo-datetime">🕚 23:00 BRT</div>
+              <div class="jogo-local">📍 Estádio Azteca, Cidade do México</div>
             </div>
             <button class="btn-reminder">🔔 Lembrar do jogo</button>
           </div>
         </div>
       </div>
       <div style="text-align:center;margin-top:32px;">
-        <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-outline">Ver todos os 48 jogos da 1ª rodada →</a>
+        <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-outline">Ver onde assistir aos jogos de hoje →</a>
       </div>
     </div>
 
-    <!-- 2ª RODADA -->
-    <div class="jogos-panel" id="panel-rodada2">
+    <!-- RESULTADOS / JOGOS REALIZADOS -->
+    <div class="jogos-panel" id="panel-realizados">
       <div class="jogos-date-group">
-        <div class="jogos-date-label">18 de Junho (Qui)</div>
+        <div class="jogos-date-label">11 de Junho (Qui) — Jogo de Abertura</div>
+        <div class="jogos-grid">
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo A <span class="badge-finalizado">✅ Abertura</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇲🇽</span><span class="gol">2</span><span class="gol-sep">x</span><span class="gol">0</span><span class="flag-big">🇿🇦</span></div>
+            <div class="jogo-resultado-resumo">México vence a África do Sul na abertura</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕓 16:00 BRT</div><div class="jogo-local">📍 Azteca, Cidade do México</div></div>
+          </div>
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo A <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇰🇷</span><span class="gol">2</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇨🇿</span></div>
+            <div class="jogo-resultado-resumo">Coreia do Sul vence a Rep. Tcheca</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕚 23:00 BRT</div><div class="jogo-local">📍 Guadalajara</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">12 de Junho (Sex)</div>
+        <div class="jogos-grid">
+          <div class="jogo-card vencedor-fora">
+            <div class="jogo-grupo">Grupo D <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇺🇸</span><span class="gol">4</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇵🇾</span></div>
+            <div class="jogo-resultado-resumo">Estados Unidos goleia o Paraguai</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕙 22:00 BRT</div><div class="jogo-local">📍 Los Angeles</div></div>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo B <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇨🇦</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇧🇦</span></div>
+            <div class="jogo-resultado-resumo">Canadá e Bósnia empatam</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕓 16:00 BRT</div><div class="jogo-local">📍 Toronto</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">13 de Junho (Sáb) — Estreia do Brasil 🇧🇷</div>
+        <div class="jogos-grid">
+          <div class="jogo-card brasil">
+            <div class="jogo-grupo">Grupo C <span class="badge-brasil">🇧🇷 Brasil</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇧🇷</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇲🇦</span></div>
+            <div class="jogo-resultado-resumo">Brasil empata com Marrocos · Gol de Vinicius Júnior</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕖 19:00 BRT</div><div class="jogo-local">📍 MetLife Stadium, NJ</div></div>
+          </div>
+          <div class="jogo-card vencedor-fora">
+            <div class="jogo-grupo">Grupo C <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇭🇹</span><span class="gol">0</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🏴</span></div>
+            <div class="jogo-resultado-resumo">Escócia vence o Haiti</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕙 22:00 BRT</div><div class="jogo-local">📍 Boston</div></div>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo B <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇶🇦</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇨🇭</span></div>
+            <div class="jogo-resultado-resumo">Catar e Suíça empatam</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕓 16:00 BRT</div><div class="jogo-local">📍 San Francisco</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">14 de Junho (Dom)</div>
+        <div class="jogos-grid">
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo E <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇩🇪</span><span class="gol">7</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇨🇼</span></div>
+            <div class="jogo-resultado-resumo">Goleada alemã sobre Curaçao</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕑 14:00 BRT</div><div class="jogo-local">📍 Houston</div></div>
+          </div>
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo E <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇨🇮</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">0</span><span class="flag-big">🇪🇨</span></div>
+            <div class="jogo-resultado-resumo">Costa do Marfim vence o Equador</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕗 20:00 BRT</div><div class="jogo-local">📍 Filadélfia</div></div>
+          </div>
+          <div class="jogo-card vencedor-fora">
+            <div class="jogo-grupo">Grupo D <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇹🇷</span><span class="gol">0</span><span class="gol-sep">x</span><span class="gol">2</span><span class="flag-big">🇦🇺</span></div>
+            <div class="jogo-resultado-resumo">Austrália vence a Turquia</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕐 01:00 BRT</div><div class="jogo-local">📍 Vancouver</div></div>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo F <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇳🇱</span><span class="gol">2</span><span class="gol-sep">x</span><span class="gol">2</span><span class="flag-big">🇯🇵</span></div>
+            <div class="jogo-resultado-resumo">Holanda e Japão empatam</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕔 17:00 BRT</div><div class="jogo-local">📍 Dallas</div></div>
+          </div>
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo F <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇸🇪</span><span class="gol">5</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇹🇳</span></div>
+            <div class="jogo-resultado-resumo">Suécia goleia a Tunísia</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕚 23:00 BRT</div><div class="jogo-local">📍 Monterrey</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">15 de Junho (Seg)</div>
         <div class="jogos-grid">
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo B <span class="badge-em-breve">Em breve</span></div>
+            <div class="jogo-grupo">Grupo H <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇪🇸</span><span class="gol">0</span><span class="gol-sep">x</span><span class="gol">0</span><span class="flag-big">🇨🇻</span></div>
+            <div class="jogo-resultado-resumo">Espanha e Cabo Verde sem gols</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕐 13:00 BRT</div><div class="jogo-local">📍 Atlanta</div></div>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo G <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇧🇪</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇪🇬</span></div>
+            <div class="jogo-resultado-resumo">Bélgica e Egito empatam</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕓 16:00 BRT</div><div class="jogo-local">📍 Los Angeles</div></div>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo H <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇸🇦</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇺🇾</span></div>
+            <div class="jogo-resultado-resumo">Arábia Saudita e Uruguai empatam</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕖 19:00 BRT</div><div class="jogo-local">📍 Miami</div></div>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo G <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇮🇷</span><span class="gol">2</span><span class="gol-sep">x</span><span class="gol">2</span><span class="flag-big">🇳🇿</span></div>
+            <div class="jogo-resultado-resumo">Irã e Nova Zelândia empatam</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕙 22:00 BRT</div><div class="jogo-local">📍 Vancouver</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">16 de Junho (Ter)</div>
+        <div class="jogos-grid">
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo I <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇫🇷</span><span class="gol">3</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇸🇳</span></div>
+            <div class="jogo-resultado-resumo">Mbappé brilha na vitória da França</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕓 16:00 BRT</div><div class="jogo-local">📍 Nova Jersey</div></div>
+          </div>
+          <div class="jogo-card vencedor-fora">
+            <div class="jogo-grupo">Grupo I <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇮🇶</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">4</span><span class="flag-big">🇳🇴</span></div>
+            <div class="jogo-resultado-resumo">Noruega goleia o Iraque</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕖 19:00 BRT</div><div class="jogo-local">📍 Foxborough</div></div>
+          </div>
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo J <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇦🇷</span><span class="gol">3</span><span class="gol-sep">x</span><span class="gol">0</span><span class="flag-big">🇩🇿</span></div>
+            <div class="jogo-resultado-resumo">Hat-trick de Messi: Argentina vence a Argélia</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕙 22:00 BRT</div><div class="jogo-local">📍 Kansas City</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">17 de Junho (Qua) — Madrugada</div>
+        <div class="jogos-grid">
+          <div class="jogo-card vencedor-casa">
+            <div class="jogo-grupo">Grupo J <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇦🇹</span><span class="gol">3</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇯🇴</span></div>
+            <div class="jogo-resultado-resumo">Áustria vence a Jordânia</div>
+            <div class="jogo-meta"><div class="jogo-datetime">🕔 05:00 BRT</div><div class="jogo-local">📍 Santa Clara</div></div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:32px;">
+        <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-outline">Ver tabela de resultados completa →</a>
+      </div>
+    </div>
+
+    <!-- JOGO AMANHÃ -->
+    <div class="jogos-panel" id="panel-amanha">
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">18 de Junho (Qui) — Jogo Amanhã · 2ª Rodada começa</div>
+        <div class="jogos-grid">
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo A <span class="badge-em-breve">Agendado</span></div>
+            <div class="jogo-teams">
+              <div class="jogo-team"><span class="flag-big">🇨🇿</span><span class="team-nm">Rep. Tcheca</span></div>
+              <div class="jogo-vs">VS</div>
+              <div class="jogo-team"><span class="flag-big">🇿🇦</span><span class="team-nm">África do Sul</span></div>
+            </div>
+            <div class="jogo-meta">
+              <div class="jogo-datetime">🕐 13:00 BRT</div>
+              <div class="jogo-local">📍 Atlanta</div>
+            </div>
+            <button class="btn-reminder">🔔 Lembrar do jogo</button>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo B <span class="badge-em-breve">Agendado</span></div>
+            <div class="jogo-teams">
+              <div class="jogo-team"><span class="flag-big">🇨🇭</span><span class="team-nm">Suíça</span></div>
+              <div class="jogo-vs">VS</div>
+              <div class="jogo-team"><span class="flag-big">🇧🇦</span><span class="team-nm">Bósnia</span></div>
+            </div>
+            <div class="jogo-meta">
+              <div class="jogo-datetime">🕓 16:00 BRT</div>
+              <div class="jogo-local">📍 Los Angeles</div>
+            </div>
+            <button class="btn-reminder">🔔 Lembrar do jogo</button>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">Grupo B <span class="badge-em-breve">Agendado</span></div>
             <div class="jogo-teams">
               <div class="jogo-team"><span class="flag-big">🇨🇦</span><span class="team-nm">Canadá</span></div>
               <div class="jogo-vs">VS</div>
@@ -866,7 +1101,7 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
             <button class="btn-reminder">🔔 Lembrar do jogo</button>
           </div>
           <div class="jogo-card">
-            <div class="jogo-grupo">Grupo A <span class="badge-em-breve">Em breve</span></div>
+            <div class="jogo-grupo">Grupo A <span class="badge-em-breve">Agendado</span></div>
             <div class="jogo-teams">
               <div class="jogo-team"><span class="flag-big">🇲🇽</span><span class="team-nm">México</span></div>
               <div class="jogo-vs">VS</div>
@@ -880,246 +1115,56 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
           </div>
         </div>
       </div>
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">19 de Junho (Sex) — 2º Jogo do Brasil 🇧🇷</div>
-        <div class="jogos-grid">
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo D <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇺🇸</span><span class="team-nm">Estados Unidos</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇦🇺</span><span class="team-nm">Austrália</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕓 16:00 BRT</div>
-              <div class="jogo-local">📍 Seattle</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo C <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><span class="team-nm">Escócia</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇲🇦</span><span class="team-nm">Marrocos</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕖 19:00 BRT</div>
-              <div class="jogo-local">📍 Boston</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card brasil">
-            <div class="jogo-grupo">Grupo C <span class="badge-brasil">🇧🇷 Brasil</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇭🇹</span><span class="team-nm">Haiti</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕙 21:30 BRT</div>
-              <div class="jogo-local">📍 Filadélfia</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">22 de Junho (Seg)</div>
-        <div class="jogos-grid">
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo J <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇦🇷</span><span class="team-nm">Argentina</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇦🇹</span><span class="team-nm">Áustria</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕑 14:00 BRT</div>
-              <div class="jogo-local">📍 Dallas</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo I <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇫🇷</span><span class="team-nm">França</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇮🇶</span><span class="team-nm">Iraque</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕕 18:00 BRT</div>
-              <div class="jogo-local">📍 Filadélfia</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo I <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇳🇴</span><span class="team-nm">Noruega</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇸🇳</span><span class="team-nm">Senegal</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕘 21:00 BRT</div>
-              <div class="jogo-local">📍 Nova York/NJ</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
       <div style="text-align:center;margin-top:32px;">
-        <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-outline">Ver todos os jogos da 2ª rodada →</a>
-      </div>
-    </div>
-
-    <!-- 3ª RODADA -->
-    <div class="jogos-panel" id="panel-rodada3">
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">24 de Junho (Qua) — 3º Jogo do Brasil 🇧🇷</div>
-        <div class="jogos-grid">
-          <div class="jogo-card brasil">
-            <div class="jogo-grupo">Grupo C <span class="badge-brasil">🇧🇷 Brasil</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><span class="team-nm">Escócia</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕖 19:00 BRT</div>
-              <div class="jogo-local">📍 Hard Rock Stadium, Miami</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo C <span class="badge-em-breve">Simultâneo</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇲🇦</span><span class="team-nm">Marrocos</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇭🇹</span><span class="team-nm">Haiti</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕖 19:00 BRT</div>
-              <div class="jogo-local">📍 Atlanta</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo A <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇲🇽</span><span class="team-nm">México</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇨🇿</span><span class="team-nm">Rep. Tcheca</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕙 22:00 BRT</div>
-              <div class="jogo-local">📍 Cidade do México</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
-      <div class="jogos-date-group">
-        <div class="jogos-date-label">27 de Junho (Sáb) — Última rodada</div>
-        <div class="jogos-grid">
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo K <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇵🇹</span><span class="team-nm">Portugal</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇨🇴</span><span class="team-nm">Colômbia</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕗 20:30 BRT</div>
-              <div class="jogo-local">📍 Miami</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo J <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🇯🇴</span><span class="team-nm">Jordânia</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇦🇷</span><span class="team-nm">Argentina</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕙 23:00 BRT</div>
-              <div class="jogo-local">📍 Dallas</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-          <div class="jogo-card">
-            <div class="jogo-grupo">Grupo L <span class="badge-em-breve">Em breve</span></div>
-            <div class="jogo-teams">
-              <div class="jogo-team"><span class="flag-big">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><span class="team-nm">Inglaterra</span></div>
-              <div class="jogo-vs">VS</div>
-              <div class="jogo-team"><span class="flag-big">🇵🇦</span><span class="team-nm">Panamá</span></div>
-            </div>
-            <div class="jogo-meta">
-              <div class="jogo-datetime">🕕 18:00 BRT</div>
-              <div class="jogo-local">📍 Nova York/NJ</div>
-            </div>
-            <button class="btn-reminder">🔔 Lembrar do jogo</button>
-          </div>
-        </div>
-      </div>
-      <div style="text-align:center;margin-top:32px;">
-        <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-outline">Ver todos os jogos da 3ª rodada →</a>
+        <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-outline">Ver agenda completa da 2ª rodada →</a>
       </div>
     </div>
 
     <!-- BRASIL -->
     <div class="jogos-panel" id="panel-brasil">
-      <div style="background:rgba(0,156,59,0.08);border:1px solid rgba(0,156,59,0.3);border-radius:14px;padding:18px 24px;margin-bottom:32px;display:flex;align-items:center;gap:12px;">
-        <span style="font-size:2rem;">🇧🇷</span>
-        <div>
-          <div style="font-family:var(--font-display);font-size:1.3rem;color:#fff;letter-spacing:1px;">GRUPO C — BRASIL</div>
-          <div style="font-size:13px;color:var(--text-muted);">Marrocos · Haiti · Escócia · Técnico: Carlo Ancelotti · Rumo ao Hexa!</div>
+      <div class="jogos-date-group">
+        <div class="jogos-date-label">Jogos do Brasil na Copa do Mundo 2026 — Grupo C</div>
+        <div class="jogos-grid">
+          <div class="jogo-card brasil">
+            <div class="jogo-grupo">1ª Rodada <span class="badge-finalizado">✅ Finalizado</span></div>
+            <div class="jogo-placar"><span class="flag-big">🇧🇷</span><span class="gol">1</span><span class="gol-sep">x</span><span class="gol">1</span><span class="flag-big">🇲🇦</span></div>
+            <div class="jogo-resultado-resumo">Estreia · 13/06 · Gol de Vinicius Júnior</div>
+            <div class="jogo-meta">
+              <div class="jogo-datetime">🕖 19:00 BRT</div>
+              <div class="jogo-local">📍 MetLife Stadium, NJ</div>
+            </div>
+          </div>
+          <div class="jogo-card brasil">
+            <div class="jogo-grupo">2ª Rodada <span class="badge-em-breve">Próximo jogo</span></div>
+            <div class="jogo-teams">
+              <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
+              <div class="jogo-vs">VS</div>
+              <div class="jogo-team"><span class="flag-big">🇭🇹</span><span class="team-nm">Haiti</span></div>
+            </div>
+            <div class="jogo-meta">
+              <div class="jogo-datetime">🕤 21:30 BRT · 19/06</div>
+              <div class="jogo-local">📍 Lincoln Financial Field, Filadélfia</div>
+            </div>
+            <button class="btn-reminder">🔔 Lembrar do jogo</button>
+          </div>
+          <div class="jogo-card">
+            <div class="jogo-grupo">3ª Rodada <span class="badge-em-breve">Agendado</span></div>
+            <div class="jogo-teams">
+              <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
+              <div class="jogo-vs">VS</div>
+              <div class="jogo-team"><span class="flag-big">🏴</span><span class="team-nm">Escócia</span></div>
+            </div>
+            <div class="jogo-meta">
+              <div class="jogo-datetime">🕖 19:00 BRT · 24/06</div>
+              <div class="jogo-local">📍 Hard Rock Stadium, Miami</div>
+            </div>
+            <button class="btn-reminder">🔔 Lembrar do jogo</button>
+          </div>
         </div>
       </div>
-      <div class="jogos-grid">
-        <div class="jogo-card brasil">
-          <div class="jogo-grupo">Grupo C · Rodada 1 <span class="badge-brasil">🇧🇷 Brasil</span></div>
-          <div class="jogo-teams">
-            <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
-            <div class="jogo-vs">VS</div>
-            <div class="jogo-team"><span class="flag-big">🇲🇦</span><span class="team-nm">Marrocos</span></div>
-          </div>
-          <div class="jogo-meta">
-            <div class="jogo-datetime">🗓 13 Jun · 19:00 BRT</div>
-            <div class="jogo-local">📍 MetLife Stadium, NJ</div>
-          </div>
-          <button class="btn-reminder">🔔 Lembrar do jogo</button>
-        </div>
-        <div class="jogo-card brasil">
-          <div class="jogo-grupo">Grupo C · Rodada 2 <span class="badge-brasil">🇧🇷 Brasil</span></div>
-          <div class="jogo-teams">
-            <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
-            <div class="jogo-vs">VS</div>
-            <div class="jogo-team"><span class="flag-big">🇭🇹</span><span class="team-nm">Haiti</span></div>
-          </div>
-          <div class="jogo-meta">
-            <div class="jogo-datetime">🗓 19 Jun · 21:30 BRT</div>
-            <div class="jogo-local">📍 Filadélfia</div>
-          </div>
-          <button class="btn-reminder">🔔 Lembrar do jogo</button>
-        </div>
-        <div class="jogo-card brasil">
-          <div class="jogo-grupo">Grupo C · Rodada 3 <span class="badge-brasil">🇧🇷 Brasil</span></div>
-          <div class="jogo-teams">
-            <div class="jogo-team"><span class="flag-big">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><span class="team-nm">Escócia</span></div>
-            <div class="jogo-vs">VS</div>
-            <div class="jogo-team"><span class="flag-big">🇧🇷</span><span class="team-nm">Brasil</span></div>
-          </div>
-          <div class="jogo-meta">
-            <div class="jogo-datetime">🗓 24 Jun · 19:00 BRT</div>
-            <div class="jogo-local">📍 Hard Rock Stadium, Miami</div>
-          </div>
-          <button class="btn-reminder">🔔 Lembrar do jogo</button>
-        </div>
-      </div>
+      <p style="color:var(--text-muted);font-size:14px;margin-top:8px;">Após o empate na estreia contra Marrocos, o Brasil divide a 2ª posição do Grupo C e precisa vencer para seguir vivo na briga pelo hexa. Confira a escalação completa na seção Seleção Brasileira.</p>
       <div style="text-align:center;margin-top:32px;">
-        <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-primary">📊 Agenda completa da Seleção</a>
+        <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-primary">📊 Agenda completa da Seleção</a>
       </div>
     </div>
   </div>
@@ -1131,15 +1176,15 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
     <div class="album-inner">
       <div class="album-content reveal">
         <span class="badge-free">✨ GRÁTIS</span>
-        <h2 class="album-title">MONTE SEU<br><span>ÁLBUM</span><br>DIGITAL</h2>
-        <p class="album-desc">Cole, troque e complete sua coleção com jogadores de todas as seleções. Mais de 600 figurinhas para colecionar!</p>
+        <h2 class="album-title">MONTE SEU<br><span>ÁLBUM</span><br>DA COPA</h2>
+        <p class="album-desc">O álbum de figurinhas oficial da Copa do Mundo 2026: cole, troque e complete sua coleção com jogadores de todas as seleções. Mais de 600 figurinhas para colecionar!</p>
         <div class="album-features">
-          <div class="album-feature">Mais de 600 figurinhas exclusivas</div>
+          <div class="album-feature">Mais de 600 figurinhas exclusivas do álbum da copa</div>
           <div class="album-feature">Troque figurinhas com amigos</div>
           <div class="album-feature">Mascotes Maple, Zayu e Clutch</div>
           <div class="album-feature">Salve seu progresso na nuvem</div>
         </div>
-        <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-yellow">📒 Acessar Álbum Agora</a>
+        <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-yellow">📒 Acessar Álbum de Figurinhas</a>
       </div>
       <div class="figurinhas-grid reveal reveal-delay-2" id="figurinhasGrid"></div>
     </div>
@@ -1151,12 +1196,12 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   <div class="container">
     <div class="selecao-header reveal">
       <div>
-        <span class="section-label">🇧🇷 Canarinho · Copa 2026</span>
+        <span class="section-label">🇧🇷 Canarinho · Copa 2026 · Escalação</span>
         <h2 class="section-title">Seleção <span>Brasileira</span></h2>
         <div class="section-divider"></div>
-        <p style="color:var(--text-muted);font-size:14px;margin-top:10px;">Técnico: Carlo Ancelotti · 26 convocados · Grupo C</p>
+        <p style="color:var(--text-muted);font-size:14px;margin-top:10px;">Técnico: Carlo Ancelotti · 26 convocados · Grupo C · Rumo ao hexa</p>
       </div>
-      <a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Ver elenco completo →</a>
+      <a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Ver elenco completo →</a>
     </div>
     <div class="jogadores-grid">
       <div class="jogador-card reveal reveal-delay-1">
@@ -1168,7 +1213,16 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
         <div class="jogador-rating">95</div>
         <div class="jogador-clube">Real Madrid</div>
       </div>
-      <div class="jogador-card reveal reveal-delay-2">
+      <div class="jogador-card reveal reveal-delay-2" style="border-color:rgba(255,223,0,0.5);">
+        <div class="jogador-num">11</div>
+        <div class="jogador-avatar">👑</div>
+        <div class="jogador-name">NEYMAR JR</div>
+        <div class="jogador-pos">Meia-atacante</div>
+        <div class="jogador-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></div>
+        <div class="jogador-rating">89</div>
+        <div class="jogador-clube">Santos · De volta após 2 anos e 7 meses</div>
+      </div>
+      <div class="jogador-card reveal reveal-delay-3">
         <div class="jogador-num">9</div>
         <div class="jogador-avatar">🔥</div>
         <div class="jogador-name">ENDRICK</div>
@@ -1177,16 +1231,8 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
         <div class="jogador-rating">88</div>
         <div class="jogador-clube">Real Madrid</div>
       </div>
-      <div class="jogador-card reveal reveal-delay-3">
-        <div class="jogador-num">5</div>
-        <div class="jogador-avatar">⚡</div>
-        <div class="jogador-name">RODRYGO</div>
-        <div class="jogador-pos">Meia-atacante</div>
-        <div class="jogador-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></div>
-        <div class="jogador-rating">90</div>
-        <div class="jogador-clube">Real Madrid</div>
-      </div>
     </div>
+    <p style="color:var(--text-muted);font-size:13px;margin-top:24px;text-align:center;">Maior artilheiro da história da Seleção, Neymar volta para sua 4ª Copa do Mundo. Rodrygo e Éder Militão, lesionados, ficaram fora da lista final de convocados.</p>
   </div>
 </section>
 
@@ -1214,6 +1260,39 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
   </div>
 </section>
 
+<!-- HISTORIA / SEDE / PROXIMA COPA -->
+<section id="historia">
+  <div class="container">
+    <div style="text-align:center;" class="reveal">
+      <span class="section-label">Curiosidades</span>
+      <h2 class="section-title">História da <span>Copa do Mundo</span></h2>
+      <div class="section-divider" style="margin:16px auto 0;"></div>
+    </div>
+    <div class="historia-grid">
+      <div class="historia-card reveal reveal-delay-1">
+        <h3>🏟️ A sede da Copa 2026</h3>
+        <p>Pela primeira vez na história da Copa do Mundo de futebol, a sede do torneio é compartilhada por três países: Estados Unidos, México e Canadá. São 16 cidades-sede ao todo, sendo o México o único país a sediar uma Copa do Mundo da FIFA por três vezes (1970, 1986 e agora 2026). A final está marcada para o MetLife Stadium, em Nova Jersey, no dia 19 de julho.</p>
+        <p>O formato também é inédito: com 48 seleções e 104 jogos, esta é a maior edição da história da Copa do Mundo FIFA, superando o tradicional modelo de 32 seleções usado desde 1998.</p>
+      </div>
+      <div class="historia-card reveal reveal-delay-2">
+        <h3>📖 Um pouco da história da Copa do Mundo</h3>
+        <p>A primeira Copa do Mundo de futebol aconteceu no Uruguai, em 1930, e desde então o torneio se tornou o evento esportivo mais assistido do planeta. O Brasil é o maior campeão da história, com cinco títulos, seguido por Alemanha e Itália, com quatro cada. A Argentina, atual campeã desde a conquista no Catar em 2022, chega à Copa 2026 em busca do bicampeonato.</p>
+        <p>Ao longo de mais de nove décadas, a Copa do Mundo já revelou craques como Pelé, Maradona, Cristiano Ronaldo e Messi, e segue sendo o maior palco para qualquer jogador de futebol no mundo.</p>
+      </div>
+      <div class="historia-card reveal reveal-delay-3">
+        <h3>🔮 Quando é a próxima Copa do Mundo?</h3>
+        <p>Depois da Copa 2026, a próxima Copa do Mundo de futebol será em 2030, em uma edição tricontinental que celebra o centenário do torneio, com jogos divididos entre Espanha, Portugal e Marrocos, além de três partidas especiais no Uruguai, Argentina e Paraguai. A Copa do Mundo de 2034 já tem sede confirmada na Arábia Saudita.</p>
+        <p>Enquanto isso, todas as atenções estão voltadas para a tabela de jogos, os resultados de hoje e o caminho do Brasil rumo ao hexa na Copa 2026.</p>
+      </div>
+      <div class="historia-card reveal reveal-delay-4">
+        <h3>🇧🇷 Brasil rumo ao hexa</h3>
+        <p>Pentacampeão mundial, o Brasil não conquista uma Copa do Mundo desde 2002, no Japão e na Coreia do Sul. Sob o comando do técnico italiano Carlo Ancelotti e com o retorno de Neymar, maior artilheiro da história da Seleção, a torcida brasileira sonha com o hexa nos Estados Unidos, no México e no Canadá.</p>
+        <p>Depois do empate na estreia contra Marrocos, o Brasil enfrenta o Haiti no dia 19 de junho e a Escócia no dia 24 de junho, ainda na fase de grupos do Grupo C.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -1223,38 +1302,39 @@ footer { background: var(--bg-darker); border-top: 1px solid rgba(255,255,255,0.
           <svg width="22" height="22" viewBox="0 0 28 28" fill="none"><path d="M14 2L17.5 10.5H26.5L19.5 15.5L22 24L14 19L6 24L8.5 15.5L1.5 10.5H10.5L14 2Z" fill="#FFDF00"/></svg>
           CENTRAL <span style="color:var(--yellow)">&nbsp;DA COPA</span>
         </div>
-        <p class="footer-tagline">Tudo sobre a Copa 2026 e a Seleção Brasileira em um só lugar. 11 Jun a 19 Jul · EUA, México &amp; Canadá.</p>
+        <p class="footer-tagline">Tabela da copa, placar dos jogos, resultados de hoje e tudo sobre a Copa do Mundo de futebol e a Seleção Brasileira. 11 Jun a 19 Jul · EUA, México &amp; Canadá.</p>
       </div>
       <div class="footer-col">
         <h4>Site</h4>
         <ul>
           <li><a href="#hero">Início</a></li>
-          <li><a href="#mascotes">Mascotes</a></li>
-          <li><a href="#grupos">Tabela de Grupos</a></li>
-          <li><a href="#jogos">Agenda de Jogos</a></li>
+          <li><a href="#jogo-hoje">Jogo de Hoje</a></li>
+          <li><a href="#grupos">Tabela da Copa</a></li>
+          <li><a href="#jogos">Resultados dos Jogos</a></li>
+          <li><a href="#historia">História da Copa</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Copa 2026</h4>
         <ul>
-          <li><a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank">Fase de Grupos</a></li>
-          <li><a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank">Oitavas de Final</a></li>
-          <li><a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank">Quartas de Final</a></li>
-          <li><a href="https://albumdacopa.infinityfreeapp.com/wp/tabela-de-jogos/" target="_blank">Final — 19 Jul</a></li>
+          <li><a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank">Fase de Grupos</a></li>
+          <li><a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank">Oitavas de Final</a></li>
+          <li><a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank">Quartas de Final</a></li>
+          <li><a href="https://placar.com.br/tabelas/copa-do-mundo/" target="_blank">Final — 19 Jul</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Comunidade</h4>
         <ul>
           <li><a href="#album">Álbum de Figurinhas</a></li>
-          <li><a href="#selecao">Seleção Brasileira</a></li>
+          <li><a href="#selecao">Jogos do Brasil</a></li>
           <li><a href="#newsletter">Newsletter</a></li>
           <li><a href="#">Contato</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Central da Copa. Feito com <span class="heart">❤️</span> para os fãs do futebol.</span>
+      <span>© 2026 Central da Copa. Feito com <span class="heart">❤️</span> para os fãs da Copa do Mundo de futebol.</span>
       <span style="color:var(--text-muted);font-size:12px;">Privacidade · Termos de uso</span>
     </div>
   </div>
@@ -1301,9 +1381,9 @@ document.querySelectorAll('.mobile-link').forEach(a=>{
   a.addEventListener('click', ()=>{ ham.classList.remove('open'); mobileNav.classList.remove('open'); document.body.style.overflow=''; });
 });
 
-// COUNTDOWN — abertura: 11 Jun 2026 16h BRT = 19:00 UTC
+// COUNTDOWN — próximo jogo do Brasil: Brasil x Haiti, 19 Jun 2026 21h30 BRT = 00:30 UTC (20 Jun)
 (function(){
-  const target = new Date('2026-06-11T19:00:00Z');
+  const target = new Date('2026-06-20T00:30:00Z');
   const days=document.getElementById('cd-days'), hours=document.getElementById('cd-hours'),
         mins=document.getElementById('cd-mins'), secs=document.getElementById('cd-secs');
   function pad(n){ return String(n).padStart(2,'0'); }
