@@ -1,0 +1,43 @@
+{
+  "current_date": "Quinta, 18 de Junho",
+  "hoje_jogos": [
+    {"time": "FIM", "team1_flag": "🇨🇿", "team1_name": "Tchéquia", "score": "1 - 1", "team2_flag": "🇿🇦", "team2_name": "África do Sul", "status": "FIM"},
+    {"time": "FIM", "team1_flag": "🇨🇭", "team1_name": "Suíça", "score": "4 - 1", "team2_flag": "🇧🇦", "team2_name": "Bósnia", "status": "FIM"},
+    {"time": "AO VIVO", "team1_flag": "🇨🇦", "team1_name": "Canadá", "score": "1 - 0", "team2_flag": "🇶🇦", "team2_name": "Catar", "status": "AO VIVO"},
+    {"time": "01h", "team1_flag": "🇲🇽", "team1_name": "México", "score": "x", "team2_flag": "🇰🇷", "team2_name": "Coreia do Sul", "status": "PRÓXIMO"}
+  ],
+  "grupos": {
+    "Grupo A": [
+      {"flag": "🇲🇽", "name": "México", "P": 3, "J": 1, "V": 1, "E": 0, "D": 0, "GP": 2, "GC": 0, "SG": 2},
+      {"flag": "🇰🇷", "name": "Coreia do Sul", "P": 3, "J": 1, "V": 1, "E": 0, "D": 0, "GP": 2, "GC": 1, "SG": 1},
+      {"flag": "🇨🇿", "name": "Rep. Tcheca", "P": 1, "J": 2, "V": 0, "E": 1, "D": 1, "GP": 2, "GC": 3, "SG": -1},
+      {"flag": "🇿🇦", "name": "África do Sul", "P": 1, "J": 2, "V": 0, "E": 1, "D": 1, "GP": 1, "GC": 3, "SG": -2}
+    ],
+    "Grupo B": [
+      {"flag": "🇨🇭", "name": "Suíça", "P": 4, "J": 2, "V": 1, "E": 1, "D": 0, "GP": 5, "GC": 2, "SG": 3},
+      {"flag": "🇨🇦", "name": "Canadá", "P": 4, "J": 2, "V": 1, "E": 1, "D": 0, "GP": 2, "GC": 1, "SG": 1},
+      {"flag": "🇶🇦", "name": "Catar", "P": 1, "J": 2, "V": 0, "E": 1, "D": 1, "GP": 1, "GC": 2, "SG": -1},
+      {"flag": "🇧🇦", "name": "Bósnia", "P": 1, "J": 2, "V": 0, "E": 1, "D": 1, "GP": 2, "GC": 5, "SG": -3}
+    ],
+    "Grupo C": [
+      {"flag": "🏴", "name": "Escócia", "P": 3, "J": 1, "V": 1, "E": 0, "D": 0, "GP": 1, "GC": 0, "SG": 1},
+      {"flag": "🇧🇷", "name": "Brasil", "P": 1, "J": 1, "V": 0, "E": 1, "D": 0, "GP": 1, "GC": 1, "SG": 0},
+      {"flag": "🇲🇦", "name": "Marrocos", "P": 1, "J": 1, "V": 0, "E": 1, "D": 0, "GP": 1, "GC": 1, "SG": 0},
+      {"flag": "🇭🇹", "name": "Haiti", "P": 0, "J": 1, "V": 0, "E": 0, "D": 1, "GP": 0, "GC": 1, "SG": -1}
+    ],
+    "Grupo D": [
+      {"flag": "🇺🇸", "name": "Estados Unidos", "P": 3, "J": 1, "V": 1, "E": 0, "D": 0, "GP": 4, "GC": 1, "SG": 3},
+      {"flag": "🇦🇺", "name": "Austrália", "P": 3, "J": 1, "V": 1, "E": 0, "D": 0, "GP": 2, "GC": 0, "SG": 2},
+      {"flag": "🇹🇷", "name": "Turquia", "P": 0, "J": 1, "V": 0, "E": 0, "D": 1, "GP": 0, "GC": 2, "SG": -2},
+      {"flag": "🇵🇾", "name": "Paraguai", "P": 0, "J": 1, "V": 0, "E": 0, "D": 1, "GP": 1, "GC": 4, "SG": -3}
+    ]
+  },
+  "recent_games": [
+    {"date": "18 de Junho", "group": "B", "location": "Los Angeles", "team1_name": "Suíça", "team1_flag": "🇨🇭", "score": "4 - 1", "team2_name": "Bósnia", "team2_flag": "🇧🇦", "status": "FIM"},
+    {"date": "18 de Junho", "group": "A", "location": "Atlanta", "team1_name": "Rep. Tcheca", "team1_flag": "🇨🇿", "score": "1 - 1", "team2_name": "África do Sul", "team2_flag": "🇿🇦", "status": "FIM"},
+    {"date": "17 de Junho", "group": "L", "location": "Dallas", "team1_name": "Inglaterra", "team1_flag": "🏴", "score": "4 - 2", "team2_name": "Croácia", "team2_flag": "🇭🇷", "status": "FIM"},
+    {"date": "17 de Junho", "group": "K", "location": "Houston", "team1_name": "Portugal", "team1_flag": "🇵🇹", "score": "1 - 1", "team2_name": "RD Congo", "team2_flag": "🇨🇩", "status": "FIM"},
+    {"date": "17 de Junho", "group": "L", "location": "Toronto", "team1_name": "Gana", "team1_flag": "🇬🇭", "score": "1 - 0", "team2_name": "Panamá", "team2_flag": "🇵🇦", "status": "FIM"},
+    {"date": "17 de Junho", "group": "K", "location": "Cidade do México", "team1_name": "Uzbequistão", "team1_flag": "🇺🇿", "score": "1 - 3", "team2_name": "Colômbia", "team2_flag": "🇨🇴", "status": "FIM"}
+  ]
+}
