@@ -4,273 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Álbum de Figurinhas Copa 2026 | Álbum da Copa Completo - Central da Copa</title>
-    <meta name="description" content="Álbum de figurinhas Copa 2026 - Monte e complete seu álbum da copa gratuitamente. Figurinhas de todos os jogadores, edições especiais, sistema de troca online. Álbum virtual da Copa do Mundo.">
-    <meta name="keywords" content="álbum de figurinhas, álbum da copa, album copa 2026, figurinhas copa, colecionador, troca de figurinhas, figurinhas raras, album virtual, colecionar, completo, figurinha, collection">
+    <meta name="description" content="Álbum de figurinhas Copa 2026 - Monte e complete seu álbum da copa gratuitamente. Figurinhas de todos os jogadores, edições especiais, sistema de troca online.">
+    <meta name="keywords" content="álbum de figurinhas, álbum da copa, album copa 2026, figurinhas copa, colecionador, troca de figurinhas, figurinhas raras, album virtual">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Central da Copa">
     <link rel="canonical" href="https://centraldascopas.com.br/album-figurinhas-copa">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Álbum de Figurinhas Copa 2026 - Central da Copa">
-    <meta property="og:description" content="Monte seu álbum da copa 2026 com figurinhas de todos os jogadores">
-    <meta property="og:url" content="https://centraldascopas.com.br/album-figurinhas-copa">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a1628 0%, #050e1a 100%);
-            color: #e8f0fe;
-            line-height: 1.6;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0a1628 0%, #050e1a 100%); color: #e8f0fe; }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        header {
-            background: rgba(5, 14, 26, 0.95);
-            padding: 40px 0;
-            text-align: center;
-            border-bottom: 3px solid #FFDF00;
-        }
-        h1 { font-size: 3rem; color: #fff; margin-bottom: 15px; }
+        header { background: rgba(5, 14, 26, 0.95); padding: 40px 0; text-align: center; border-bottom: 3px solid #FFDF00; }
+        h1 { font-size: 3rem; color: #fff; }
         .highlight { color: #FFDF00; }
-        h2 { font-size: 2rem; color: #009C3B; margin: 40px 0 20px; }
-        h3 { font-size: 1.5rem; color: #FFDF00; margin: 25px 0 15px; }
-        p { margin: 15px 0; font-size: 1.1rem; line-height: 1.8; }
-        .btn {
-            display: inline-block;
-            padding: 14px 32px;
-            margin: 20px 10px 20px 0;
-            background: #FFDF00;
-            color: #000;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            border: 2px solid #FFDF00;
-        }
-        .btn:hover { 
-            background: #e6c800;
-            box-shadow: 0 0 20px rgba(255, 223, 0, 0.5);
-            color: #000;
-        }
-        .content-section {
-            background: rgba(13, 31, 60, 0.5);
-            padding: 30px;
-            margin: 30px 0;
-            border-radius: 10px;
-            border: 1px solid rgba(255, 223, 0, 0.15);
-        }
-        .album-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            gap: 15px;
-            margin: 30px 0;
-        }
-        .figurinha {
-            aspect-ratio: 2/3;
-            background: linear-gradient(135deg, #1a3a6e, #0d2246);
-            border: 2px solid #FFDF00;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.5rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 0 10px rgba(255, 223, 0, 0.2);
-        }
-        .figurinha:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 223, 0, 0.5);
-        }
-        .figurinha.collected {
-            background: linear-gradient(135deg, #00792d, #004d1d);
-            border-color: #00c94b;
-        }
-        .feature-box {
-            background: rgba(0, 156, 59, 0.1);
-            border: 2px solid #009C3B;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-        }
-        .feature-box h4 { color: #FFDF00; margin-bottom: 10px; }
-        .cta-box {
-            background: linear-gradient(135deg, #FFDF00, #e6c800);
-            padding: 40px;
-            border-radius: 15px;
-            text-align: center;
-            margin: 40px 0;
-            color: #000;
-        }
-        .cta-box h2 { color: #000; margin-top: 0; }
-        .cta-box p { color: #000; }
-        .keywords-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-            margin: 20px 0;
-        }
-        .keyword-tag {
-            background: rgba(255, 223, 0, 0.2);
-            border: 2px solid #FFDF00;
-            padding: 12px 15px;
-            border-radius: 8px;
-            color: #FFDF00;
-            text-align: center;
-            font-weight: bold;
-        }
-        footer {
-            background: rgba(5, 14, 26, 0.95);
-            padding: 40px 0 20px;
-            text-align: center;
-            border-top: 2px solid #FFDF00;
-            margin-top: 60px;
-        }
-        ul { margin-left: 20px; }
-        li { margin: 10px 0; }
-        .progress-bar {
-            background: rgba(0, 156, 59, 0.2);
-            border: 2px solid #009C3B;
-            border-radius: 10px;
-            height: 30px;
-            margin: 15px 0;
-            overflow: hidden;
-        }
-        .progress-fill {
-            background: linear-gradient(90deg, #009C3B, #00c94b);
-            height: 100%;
-            width: 35%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            font-weight: bold;
-        }
+        .cta-box { background: linear-gradient(135deg, #FFDF00, #e6c800); padding: 40px; border-radius: 15px; text-align: center; margin: 40px 0; color: #000; }
+        .btn { display: inline-block; padding: 14px 32px; background: #FFDF00; color: #000; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        .btn:hover { background: #e6c800; }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>📒 <span class="highlight">Álbum de Figurinhas</span></h1>
-            <p style="font-size: 1.2rem;">Álbum Virtual da Copa 2026</p>
+            <p>Álbum Virtual da Copa 2026</p>
         </div>
     </header>
-
     <main class="container">
-        <section class="content-section">
-            <h2>Bem-vindo ao Álbum da Copa 2026</h2>
-            <p>Monte e complete seu <strong>álbum de figurinhas</strong> da Copa do Mundo 2026 de forma gratuita! Colecionando figurinhas de todos os 48 países participantes, você terá acesso a uma experiência completa de <strong>album da copa</strong>.</p>
+        <section style="background: rgba(13, 31, 60, 0.5); padding: 30px; margin: 30px 0; border-radius: 10px;">
+            <h2 style="color: #009C3B;">Bem-vindo ao Álbum da Copa 2026</h2>
+            <p>Monte e complete seu <strong>álbum de figurinhas</strong> da Copa do Mundo 2026 de forma gratuita!</p>
         </section>
-
-        <section class="content-section">
-            <h2>Progresso do Seu Álbum</h2>
-            <p>Figurinhas Coletadas: <strong>127 de 360</strong></p>
-            <div class="progress-bar">
-                <div class="progress-fill">35%</div>
-            </div>
-            <p>Continue coletando para completar seu <strong>álbum completo</strong>!</p>
-        </section>
-
-        <section class="content-section">
-            <h2>Figurinhas Disponíveis</h2>
-            <div class="album-grid">
-                <div class="figurinha collected">🇧🇷</div>
-                <div class="figurinha collected">🇦🇷</div>
-                <div class="figurinha collected">🇫🇷</div>
-                <div class="figurinha collected">🇩🇪</div>
-                <div class="figurinha collected">🇪🇸</div>
-                <div class="figurinha">🇵🇹</div>
-                <div class="figurinha">🇬🇧</div>
-                <div class="figurinha">🇳🇱</div>
-                <div class="figurinha">🇮🇹</div>
-                <div class="figurinha">🇧🇪</div>
-                <div class="figurinha">🇺🇸</div>
-                <div class="figurinha">🇲🇽</div>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <h2>Como Funciona o Álbum de Figurinhas</h2>
-            
-            <div class="feature-box">
-                <h4>📷 Coletar Figurinhas</h4>
-                <p>Cada jogador dos 48 países possui sua figurinha exclusiva. Colecione todos para completar seu álbum!</p>
-            </div>
-
-            <div class="feature-box">
-                <h4>🔄 Sistema de Troca</h4>
-                <p>Troque figurinhas duplicadas com outros colecionadores online. Encontre aquele que falta no seu <strong>álbum da copa</strong>!</p>
-            </div>
-
-            <div class="feature-box">
-                <h4>⭐ Edições Especiais</h4>
-                <p>Colecionáveis raros e edições limitadas com diferentes designs e efeitos especiais.</p>
-            </div>
-
-            <div class="feature-box">
-                <h4>🏆 Conquistas</h4>
-                <p>Desbloqueie conquistas enquanto completa seu álbum virtual. Mostre seu progresso para os amigos!</p>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <h2>Figurinhas Raras e Especiais</h2>
-            <h3>Ouro - 48 Figurinhas</h3>
-            <p>Uma figurinha de cada país, em versão ouro exclusiva. São os itens mais cobiçados do álbum!</p>
-
-            <h3>Holográficas - 48 Figurinhas</h3>
-            <p>Figurinhas especiais com efeito holográfico. Ainda mais raras e valiosas para colecionadores.</p>
-
-            <h3>Mascotes da Copa - 3 Figurinhas</h3>
-            <p>As três mascotes oficiais: Maple, Zayu e Clutch em versão especial.</p>
-
-            <h3>Lendas - Edição Limitada</h3>
-            <p>Figurinhas especiais de ídolos e lendas do futebol mundial. Colecione os maiores nomes da história!</p>
-        </section>
-
-        <section class="content-section">
-            <h2>Meu Progresso</h2>
-            <h3>Estatísticas do Álbum</h3>
-            <ul>
-                <li><strong>Figurinhas Coletadas:</strong> 127 / 360</li>
-                <li><strong>Figurinhas em Falta:</strong> 233</li>
-                <li><strong>Edições Especiais:</strong> 12</li>
-                <li><strong>Figurinhas Raras:</strong> 5</li>
-                <li><strong>Países Completos:</strong> 3 (Brasil, Argentina, França)</li>
-            </ul>
-        </section>
-
-        <section class="content-section">
-            <h2>Palavras-Chave Principais</h2>
-            <div class="keywords-grid">
-                <div class="keyword-tag">Álbum Figurinhas</div>
-                <div class="keyword-tag">Álbum Copa</div>
-                <div class="keyword-tag">Album Copa 2026</div>
-                <div class="keyword-tag">Figurinhas Copa</div>
-                <div class="keyword-tag">Colecionador</div>
-                <div class="keyword-tag">Troca Figurinhas</div>
-                <div class="keyword-tag">Figurinhas Raras</div>
-                <div class="keyword-tag">Album Virtual</div>
-                <div class="keyword-tag">Colecionar</div>
-                <div class="keyword-tag">Album Completo</div>
-                <div class="keyword-tag">Figurinha Especial</div>
-                <div class="keyword-tag">Colecionar Online</div>
-            </div>
-        </section>
-
         <section class="cta-box">
-            <h2>📒 Comece Seu Álbum da Copa 2026</h2>
-            <p>Colecione figurinhas gratuitamente e troque com outros colecionadores ao redor do mundo!</p>
-            <a href="https://centraldascopas.com.br" class="btn" target="_blank" rel="noopener noreferrer">
-                ➜ Abrir Álbum Virtual - Central da Copa
-            </a>
+            <h2 style="color: #000; margin-top: 0;">📒 Comece Seu Álbum da Copa 2026</h2>
+            <p style="color: #000;">Colecione figurinhas gratuitamente!</p>
+            <a href="https://centraldascopas.com.br" class="btn" target="_blank">➜ Abrir Álbum Virtual - Central da Copa</a>
         </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Central da Copa - Álbum de Figurinhas da Copa do Mundo 2026</p>
-            <p>📒 Álbum | 🔄 Troca | ⭐ Especiais | 🏆 Conquistas</p>
-        </div>
-    </footer>
 </body>
 </html>
