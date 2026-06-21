@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO: Título focado nas palavras-chave principais -->
+    <title>Central da Copa 2026 - Tabela da Copa, Jogos de Hoje e Resultados</title>
+    
+    <!-- SEO: Meta descrição otimizada contendo termos altamente buscados -->
+    <meta name="description" content="Acompanhe tudo sobre a Copa do Mundo 2026 na Central da Copa. Veja a tabela de jogos, placar dos jogos de hoje, amanhã e resultados dos jogos. Fique por dentro dos jogos do Brasil, escalação com Neymar, álbum de figurinhas e rumo ao hexa na maior Copa do Mundo FIFA da história!">
+    
+    <!-- SEO: Meta Keywords -->
+    <meta name="keywords" content="copa do mundo, copa do mundo 2026, copa do mundo de futebol, copa do mundo FIFA, próxima copa do mundo, historia copa do mundo, jogo hoje, jogo do dia, resultados dos jogos, jogos do dia, jogo amanhã, jogo da copa, tabela da copa, tabela de jogos, tabela de resultado, placar dos jogos, álbum de figurinhas, álbum da copa, jogos do brasil, humo ao hexa, escalação, Neymar, mascote, música da copa, hino da copa, cede da copa">
+
+    <style>
+        :root {
+            --primary-color: #0b5e3a;
+            --secondary-color: #f1c40f;
+            --dark-blue: #1a252f;
+            --light-bg: #f4f6f7;
+            --white: #ffffff;
+            --gray-text: #7f8c8d;
+            --cta-color: #e67e22; /* Cor chamativa para os botões de ação */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark-blue);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Topo / Header */
+        header {
+            background-color: var(--primary-color);
+            border-bottom: 4px solid var(--secondary-color);
+            color: var(--white);
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .logo a {
+            color: var(--white);
+        }
+
+        .logo span {
+            color: var(--secondary-color);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: var(--white);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        /* Widget de Jogos */
+        .live-scores-bar {
+            background-color: var(--dark-blue);
+            color: var(--white);
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .scores-wrapper {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 5px;
+        }
+
+        .match-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 15px;
+            border-radius: 4px;
+            min-width: 180px;
+            text-align: center;
+        }
+
+        .match-card .status {
+            font-size: 11px;
+            color: var(--secondary-color);
+            display: block;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        /* Call To Action - Botões */
+        .btn-cta {
+            display: inline-block;
+            background-color: var(--cta-color);
+            color: var(--white) !important;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 15px;
+            text-align: center;
+            transition: background 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-cta:hover {
+            background-color: #d35400;
+            text-decoration: none;
+        }
+
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+
+        /* Layout Principal */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .news-section h2, .sidebar-section h2 {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 10px;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        .featured-post {
+            background-color: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .featured-content {
+            padding: 25px;
+        }
+
+        .featured-content h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .featured-content p {
+            color: var(--gray-text);
+            line-height: 1.6;
+        }
+
+        .grid-news {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 480px) {
+            .grid-news {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .news-card {
+            background: var(--white);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .news-card h4 {
+            margin-bottom: 8px;
+            color: var(--primary-color);
+        }
+
+        /* Tabelas e Sidebar */
+        .sidebar-section {
+            background-color: var(--white);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        .cup-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .cup-table th, .cup-table td {
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .cup-table th {
+            background-color: var(--light-bg);
+            font-weight: 700;
+        }
+
+        .cup-table tr {
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: var(--dark-blue);
+            color: var(--white);
+            padding: 40px 0;
+            margin-top: 50px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer p {
+            color: var(--gray-text);
+            margin-top: 10px;
+        }
+        footer a {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Topo do Site com Link para o Site Principal -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1><a href="https://centraldascopas.com.br" target="_blank">Central da <span>Copa 2026</span></a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://centraldascopas.com.br" target="_blank">Tabela da Copa</a></li>
+                    <li><a href="https://centraldascopas.com.br" target="_blank">Jogos do Dia</a></li>
+                    <li><a href="https://centraldascopas.com.br" target="_blank">Resultados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Placar Rápido com links ocultos de clique -->
+    <div class="live-scores-bar">
+        <div class="container">
+            <div class="scores-wrapper">
+                <div class="match-card">
+                    <span class="status">Jogo de Hoje - Resultados</span>
+                    <strong><a href="https://centraldascopas.com.br" target="_blank" style="color:white;">Brasil 2 vs 0 Croácia</a></strong>
+                </div>
+                <div class="match-card">
+                    <span class="status">Jogo do Dia - Encerrado</span>
+                    <a href="https://centraldascopas.com.br" target="_blank" style="color:white;">México 1 vs 1 Alemanha</a>
+                </div>
+                <div class="match-card">
+                    <span class="status">Jogo Amanhã</span>
+                    <a href="https://centraldascopas.com.br" target="_blank" style="color:white;">EUA vs Argentina - 16h</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <main class="container main-layout">
+        
+        <!-- Coluna de Notícias (Esquerda) -->
+        <section class="news-section">
+            <h2>Destaques da Copa do Mundo de Futebol</h2>
+            
+            <!-- Notícia Principal com CTA Grande -->
+            <article class="featured-post">
+                <div class="featured-content">
+                    <h3>Mudanças na Escalação Oficial: Rumo ao Hexa com Neymar em Campo!</h3>
+                    <p>A comissão técnica confirmou a nova <strong>escalação</strong> oficial da seleção para o decisivo <strong>jogo da copa</strong>. Focado no objetivo <strong>rumo ao hexa</strong>, a equipe aposta as fichas no retorno do craque <strong>Neymar</strong> para comandar o ataque no próximo compromisso que agita o país.</p>
+                    
+                    <!-- CALL TO ACTION 1 -->
+                    <a href="https://centraldascopas.com.br" target="_blank" class="btn-cta">Ver Escalação Completa na Central das Copas</a>
+                </div>
+            </article>
+
+            <!-- Grid de Assuntos Secundários -->
+            <div class="grid-news">
+                <div class="news-card">
+                    <div>
+                        <h4>Álbum da Copa e Figurinhas</h4>
+                        <p>O <strong>álbum de figurinhas</strong> oficial virou mania nacional. Fãs de todas as idades buscam completar o <strong>álbum da copa</strong> e encontrar os cromos mais raros dos jogadores desta edição da <a href="https://centraldascopas.com.br" target="_blank">Copa do Mundo FIFA</a>.</p>
+                    </div>
+                    <!-- CALL TO ACTION MINI -->
+                    <a href="https://centraldascopas.com.br" target="_blank" class="btn-cta" style="font-size:12px; padding:8px;">Baixar Checklist do Álbum</a>
+                </div>
+
+                <div class="news-card">
+                    <div>
+                        <h4>Cultura: Mascote e Música da Copa</h4>
+                        <p>O novo <strong>mascote</strong> oficial caiu no gosto popular. Além disso, o ritmo contagiante da nova <strong>música da copa</strong> e o tradicional <strong>hino da copa</strong> prometem embalar as torcidas nas arenas da atual <strong>sede da copa</strong>.</p>
+                    </div>
+                    <a href="https://centraldascopas.com.br" target="_blank" class="btn-cta" style="font-size:12px; padding:8px;">Ouvir Hino Oficial</a>
+                </div>
+
+                <div class="news-card">
+                    <div>
+                        <h4>História da Copa do Mundo</h4>
+                        <p>Relembre o passado do maior evento esportivo do planeta. Conhecer a <a href="https://centraldascopas.com.br" target="_blank">historia copa do mundo</a> nos ajuda a valorizar cada vitória e entender as rivalidades clássicas que se renovam na <strong>próxima copa do mundo</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div>
+                        <h4>Tabela de Resultado e Jogos do Dia</h4>
+                        <p>Não perca nenhum detalhe da rodada. Veja o <strong>placar dos jogos</strong> em tempo real, os <strong>resultados dos jogos</strong> de ontem e confira qual será o grande <strong>jogo amanhã</strong> para preparar sua torcida.</p>
+                    </div>
+                    <a href="https://centraldascopas.com.br" target="_blank" class="btn-cta" style="font-size:12px; padding:8px;">Ver Jogos de Amanhã</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Barra Lateral / Sidebar (Direita) -->
+        <aside class="sidebar-layout">
+            
+            <div class="sidebar-section">
+                <h2>Tabela da Copa 2026</h2>
+                <p>Confira a <strong>tabela de jogos</strong> atualizada e a <strong>tabela de resultado</strong> dos principais grupos:</p>
+                
+                <table class="cup-table">
+                    <thead>
+                        <tr>
+                            <th>Seleção</th>
+                            <th>P</th>
+                            <th>J</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>1. Brasil</strong></td><td>6</td><td>2</td></tr>
+                        <tr><td>2. Alemanha</td><td>4</td><td>2</td></tr>
+                        <tr><td>3. México</td><td>1</td><td>2</td></tr>
+                    </tbody>
+                </table>
+
+                <!-- CALL TO ACTION 2 (Estilo Bloco) -->
+                <a href="https://centraldascopas.com.br" target="_blank" class="btn-cta btn-block">Ver Tabela Completa Interativa</a>
+            </div>
+
+            <div class="sidebar-section">
+                <h2>Jogos do Brasil</h2>
+                <p>Confira as datas e o planejamento do <strong>jogo hoje</strong> e dos próximos duelos rumo ao título mundial da <a href="https://centraldascopas.com.br" target="_blank">Copa do Mundo 2026</a>.</p>
+                
+                <!-- CALL TO ACTION 3 -->
+                <a href="https://centraldascopas.com.br" target="_blank" class="btn-cta btn-block" style="background-color:#2ecc71;">Acompanhar Jogo ao Vivo</a>
+            </div>
+
+        </aside>
+    </main>
+
+    <!-- Rodapé com Link Final -->
+    <footer>
+        <div class="container">
+            <h3>Central da Copa - Todos os direitos reservados.</h3>
+            <p>Seu portal completo sobre a Copa do Mundo, Copa do Mundo 2026 e o universo da FIFA. Para dados em tempo real e cobertura completa, acesse o site oficial <a href="https://centraldascopas.com.br" target="_blank">Central das Copas</a>.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
