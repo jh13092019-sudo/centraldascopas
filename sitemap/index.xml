@@ -1,7 +1,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
+        <loc>https://centraldascopas.com.br/copa-do-mundo/</loc>
+        <priority>0.8</priority>
+        <lastmod>2026-07-03T19:21:36.542Z</lastmod>
+</url>
+<url>
+        <loc>https://centraldascopas.com.br/tabela-copa-mundo/</loc>
+        <priority>0.8</priority>
+        <lastmod>2026-07-03T19:21:36.542Z</lastmod>
+</url>
+<url>
+        <loc>https://centraldascopas.com.br/album-figurinhas-copa</loc>
+        <priority>0.8</priority>
+        <lastmod>2026-07-03T19:21:36.542Z</lastmod>
+</url>
+<url>
+        <loc>https://centraldascopas.com.br/jogo-hoje-brasil-hexa/</loc>
+        <priority>0.8</priority>
+        <lastmod>2026-07-03T19:21:36.542Z</lastmod>
+</url>
+<url>
         <loc>http://centraldascopas.com.br/</loc>
         <priority>0.8</priority>
-        <lastmod>2026-06-23T15:55:37.800Z</lastmod>
+        <lastmod>2026-07-03T19:21:36.542Z</lastmod>
 </url>
 </urlset>
