@@ -1,0 +1,226 @@
+import json
+
+# Let's check what specific historical football matches these refer to.
+# Brazil vs Norway: infamous 1998 World Cup group stage loss (1-2) or Olympics?
+# Portugal vs Spain: World Cup 2010 (0-1), Euro 2012 (penalties), etc.
+# Since the user asked for two HTML pages, let's create a beautiful cohesive package or two HTML files.
+# Wait, the instruction says "generate files (PDF, Markdown, TXT, LaTeX, CSV, XLSX)". For HTML files, let's generate a zip or just write the HTML files and provide them, or since the guidelines say "When the user requests changes or specific formats... default to .pdf only when intent is ambiguous". But here they explicitly asked for HTML pages. Let's write them as `.html` files using python so they are downloadable.
+
+html_brasil_noruega = """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Histórica Derrota do Brasil para a Noruega (1998)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #009b3a, #fed100);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .match-meta {
+            display: flex;
+            justify-content: space-between;
+            background: #222;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        .score {
+            font-size: 1.5em;
+            color: #fed100;
+        }
+        h2 {
+            color: #009b3a;
+            border-left: 5px solid #fed100;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        p {
+            text-align: justify;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 5px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brasil 1 x 2 Noruega</h1>
+    <p>O Histórico Confronto de Marselha - Copa do Mundo de 1998</p>
+</header>
+
+<div class="container">
+    <div class="match-meta">
+        <span>Fase de Grupos - Grupo A</span>
+        <span class="score">Brasil 1 - 2 Noruega</span>
+        <span>23 de Junho de 1998</span>
+    </div>
+
+    <h2>O Contexto</h2>
+    <p>O Brasil já estava classificado para as oitavas de final da Copa do Mundo da França após vencer a Escócia por 2 a 1 e golear o Marrocos por 3 a 0. A Noruega, por sua vez, precisava desesperadamente da vitória para avançar na competição, dependendo também do resultado do outro jogo do grupo.</p>
+
+    <h2>O Jogo</h2>
+    <p>A Seleção Brasileira, comandada por Zagallo, entrou em campo com suas principais estrelas, incluindo Ronaldo, Rivaldo e Bebeto. O jogo parecia sob controle quando Bebeto abriu o placar aos 33 minutos do segundo tempo, cabeceando após um cruzamento preciso de Denílson.</p>
+    <p>No entanto, a Noruega não se entregou. Aos 38 minutos, Tore André Flo empatou a partida após uma bela jogada individual, superando o zagueiro Júnior Baiano. Pouco depois, aos 44 minutos, o árbitro marcou um pênalti polêmico de Júnior Baiano em Flo. Kjetil Rekdal cobrou com precisão, virando o jogo para os escandinavos e garantindo a classificação norueguesa.</p>
+
+    <h2>Fato Curioso</h2>
+    <p>A Noruega possui uma das marcas mais impressionantes do futebol mundial: é uma das poucas seleções que nunca perdeu para o Brasil na história. Até hoje, em quatro confrontos oficiais, foram duas vitórias norueguesas e dois empates.</p>
+</div>
+
+<div class="footer">
+    Página Histórica de Futebol Gráfico
+</div>
+
+</body>
+</html>
+"""
+
+html_portugal_espanha = """<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Eliminação de Portugal frente à Espanha (2010)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fdfdfd;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #046A38, #DA291C);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .match-meta {
+            display: flex;
+            justify-content: space-between;
+            background: #111;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        .score {
+            font-size: 1.5em;
+            color: #FFC72C;
+        }
+        h2 {
+            color: #DA291C;
+            border-left: 5px solid #046A38;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        p {
+            text-align: justify;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 5px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portugal 0 x 1 Espanha</h1>
+    <p>O Duelo Ibérico nas Oitavas de Final - Copa do Mundo de 2010</p>
+</header>
+
+<div class="container">
+    <div class="match-meta">
+        <span>Oitavas de Final</span>
+        <span class="score">Portugal 0 - 1 Espanha</span>
+        <span>29 de Junho de 2010</span>
+    </div>
+
+    <h2>O Cenário</h2>
+    <p>Portugal e Espanha enfrentaram-se no Estádio Green Point, na Cidade do Cabo, num dos jogos mais aguardados dos oitavos de final da Copa do Mundo da África do Sul. A seleção das "Quinas", liderada em campo por Cristiano Ronaldo, defrontava a poderosa "La Roja", que viria a sagrar-se campeã mundial naquele ano.</p>
+
+    <h2>O Confronto</h2>
+    <p>O jogo foi extremamente tático e equilibrado durante a primeira parte, com ambas as equipas a criarem oportunidades, mas com a Espanha a deter a maior posse de bola característica do seu estilo <i>tiki-taka</i>.</p>
+    <p>O único golo da partida surgiu aos 63 minutos. Numa combinação rápida no ataque espanhol, Andrés Iniesta assistiu de forma soberba David Villa. O avançado espanhol rematou primeiro para a defesa de Eduardo, mas na recarga não perdoou e enviou a bola para o fundo das redes.</p>
+
+    <h2>O Desfecho</h2>
+    <p>Apesar das tentativas de reação da equipa portuguesa comandada por Carlos Queiroz, a Espanha conseguiu controlar o ritmo do jogo até ao apito final. Para piorar a situação lusa, o defesa Ricardo Costa foi expulso nos minutos finais da partida. Com este resultado, Portugal despediu-se do Mundial, enquanto a Espanha seguiu o seu rumo dourado rumo ao título.</p>
+</div>
+
+<div class="footer">
+    Página Histórica de Futebol Gráfico
+</div>
+
+</body>
+</html>
+"""
+
+with open("brasil_noruega.html", "w", encoding="utf-8") as f:
+    f.write(html_brasil_noruega)
+
+with open("portugal_espanha.html", "w", encoding="utf-8") as f:
+    f.write(html_portugal_espanha)
+
+print("Files generated successfully.")
+
