@@ -1,12 +1,4 @@
-import json
-
-# Let's check what specific historical football matches these refer to.
-# Brazil vs Norway: infamous 1998 World Cup group stage loss (1-2) or Olympics?
-# Portugal vs Spain: World Cup 2010 (0-1), Euro 2012 (penalties), etc.
-# Since the user asked for two HTML pages, let's create a beautiful cohesive package or two HTML files.
-# Wait, the instruction says "generate files (PDF, Markdown, TXT, LaTeX, CSV, XLSX)". For HTML files, let's generate a zip or just write the HTML files and provide them, or since the guidelines say "When the user requests changes or specific formats... default to .pdf only when intent is ambiguous". But here they explicitly asked for HTML pages. Let's write them as `.html` files using python so they are downloadable.
-
-html_brasil_noruega = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -214,13 +206,3 @@ html_portugal_espanha = """<!DOCTYPE html>
 
 </body>
 </html>
-"""
-
-with open("brasil_noruega.html", "w", encoding="utf-8") as f:
-    f.write(html_brasil_noruega)
-
-with open("portugal_espanha.html", "w", encoding="utf-8") as f:
-    f.write(html_portugal_espanha)
-
-print("Files generated successfully.")
-
