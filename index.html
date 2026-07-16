@@ -36,16 +36,33 @@
   "@type": "SportsEvent",
   "name": "Copa do Mundo FIFA 2026",
   "alternateName": "Copa do Mundo de Futebol 2026",
+  "eventStatus": "https://schema.org/EventScheduled",
   "startDate": "2026-06-11",
   "endDate": "2026-07-19",
   "location": [
-    {"@type":"Place","name":"Estados Unidos"},
-    {"@type":"Place","name":"México"},
-    {"@type":"Place","name":"Canadá"}
+    {"@type":"Place","name":"Estados Unidos", "address": {"@type": "PostalAddress", "addressLocality": "Estados Unidos"}},
+    {"@type":"Place","name":"México", "address": {"@type": "PostalAddress", "addressLocality": "México"}},
+    {"@type":"Place","name":"Canadá", "address": {"@type": "PostalAddress", "addressLocality": "Canadá"}}
   ],
   "description": "A Copa do Mundo FIFA 2026 é a 23ª edição do torneio, primeira com 48 seleções, disputada em 16 cidades-sede dos Estados Unidos, México e Canadá entre 11 de junho e 19 de julho de 2026. Acompanhe a tabela da copa, placar dos jogos, resultados ao vivo, oitavas de final, Espanha x Áustria, Portugal x Croácia, jogos do Brasil rumo ao hexa, Neymar, Vini Jr e toda a seleção brasileira.",
-  "organizer": {"@type":"Organization","name":"FIFA"},
+  "organizer": {
+    "@type": "Organization",
+    "name": "FIFA",
+    "url": "https://www.fifa.com/"
+  },
+  "performer": [
+    {"@type": "SportsTeam", "name": "Seleção Brasileira"},
+    {"@type": "SportsTeam", "name": "Seleção Argentina"},
+    {"@type": "SportsTeam", "name": "Seleção Francesa"}
+  ],
   "keywords": "copa do mundo, oitavas de final, Espanha x Áustria, Portugal x Croácia, placar, jogos brasil, tabela da copa, Neymar, Vini Jr, eliminatórias para a final",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://centraldacopa.com.br/"
+  },
   "potentialAction": {
     "@type": "WatchAction",
     "target": "https://centraldacopa.com.br/"
