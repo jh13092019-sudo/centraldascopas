@@ -455,6 +455,7 @@ footer { padding: 60px 0 30px; background: var(--bg-darker); border-top: 1px sol
       <div class="hero-buttons reveal">
         <a href="#jogos" class="btn btn-primary">⚽ Placar de Jogos Hoje</a>
         <a href="#brasileirao" class="btn btn-outline">📊 Tabela Brasileirão</a>
+        <a href="https://centraldascopas.com.br/copa-do-mundo-2026" class="btn btn-yellow" style="margin-top:10px; width:100%; justify-content:center;">🏆 Acompanhar Copa do Mundo 2026</a>
       </div>
       <div class="hero-ticker reveal">
         <div class="ticker-label">📡 Placar ao Vivo · Jogos de Hoje</div>
@@ -1156,7 +1157,7 @@ function submitNewsletter(){
 // AUTOMATIC SCORE UPDATER (JASON)
 async function updateScores() {
   try {
-    const response = await fetch("data.json");
+    const response = await fetch("./data.json");
     const data = await response.json();
 
     // Update "Jogo de Hoje" section
