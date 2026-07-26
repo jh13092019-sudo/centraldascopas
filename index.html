@@ -1157,7 +1157,7 @@ function submitNewsletter(){
 // AUTOMATIC SCORE UPDATER (JASON)
 async function updateScores() {
   try {
-    const response = await fetch("./data.json");
+    const response = await fetch("https://raw.githubusercontent.com/jh13092019-sudo/centraldascopas/refs/heads/main2/data.json");
     const data = await response.json();
 
     // Update "Jogo de Hoje" section
