@@ -484,17 +484,17 @@ footer { padding: 60px 0 30px; background: var(--bg-darker); border-top: 1px sol
       <div class="hoje-banner-left">
         <span class="hoje-live-dot"></span>
         <div>
-          <div class="hoje-banner-title">Jogos de Hoje — 23 de Julho 2026</div>
-          <div class="hoje-banner-sub">Brasileirão Série A · 20ª Rodada · Jogos ao vivo e próximos confrontos</div>
+          <div class="hoje-banner-title">Jogos de Hoje — 26 de Julho 2026</div>
+          <div class="hoje-banner-sub">Brasileirão Série A e B · Rodada Atual · Jogos ao vivo e transmissões</div>
         </div>
       </div>
       <div class="hoje-jogos-mini">
-        <div class="hoje-mini-card"><span class="mini-hora">19:30</span> Botafogo x Santos</div>
-        <div class="hoje-mini-card"><span class="mini-hora">19:30</span> Fluminense x Grêmio</div>
-        <div class="hoje-mini-card"><span class="mini-hora">21:30</span> Corinthians x Vasco</div>
-        <div class="hoje-mini-card"><span class="mini-hora">21:30</span> Atlético-MG x Bahia</div>
-        <div class="hoje-mini-card"><span class="mini-hora">19:30</span> Remo x Mirassol</div>
-        <div class="hoje-mini-card"><span class="mini-hora">21:30</span> Vitória x RB Bragantino</div>
+        <div class="hoje-mini-card"><span class="mini-hora">16:00</span> Cruzeiro x Botafogo</div>
+        <div class="hoje-mini-card"><span class="mini-hora">16:00</span> Bahia x Corinthians</div>
+        <div class="hoje-mini-card"><span class="mini-hora">18:30</span> Flamengo x São Paulo</div>
+        <div class="hoje-mini-card"><span class="mini-hora">18:30</span> Grêmio x Fluminense</div>
+        <div class="hoje-mini-card"><span class="mini-hora">19:30</span> Palmeiras x Atlético-MG</div>
+        <div class="hoje-mini-card"><span class="mini-hora">19:30</span> Remo x Vitória</div>
       </div>
     </div>
   </div>
@@ -1157,7 +1157,7 @@ function submitNewsletter(){
 // AUTOMATIC SCORE UPDATER (JASON)
 async function updateScores() {
   try {
-    const response = await fetch("https://raw.githubusercontent.com/jh13092019-sudo/centraldascopas/refs/heads/main2/data.json");
+    const response = await fetch("./data.json");
     const data = await response.json();
 
     // Update "Jogo de Hoje" section
@@ -1171,8 +1171,8 @@ async function updateScores() {
       const hojeJogosMini = document.querySelector(".hoje-jogos-mini");
       if (hojeJogosMini) {
         hojeJogosMini.innerHTML = data.hoje_jogos.map(game => `
-          <div class="hoje-mini-card"><span class="mini-hora">${game.time}</span> ${game.team1_name} ${game.score} ${game.team2_name}</div>
-        `).join("");
+          <div class="hoje-mini-card"><span class="mini-hora">${game.time}</span> ${game.team1_name} x ${game.team2_name}</div>
+        `).slice(0, 6).join("");
       }
     }
 
@@ -1207,7 +1207,7 @@ async function updateScores() {
                 <div class="jogo-grupo">${game.competicao} ${badge}</div>
                 <div class="jogo-placar"><span class="flag-big">${game.flag1}</span>${gols}<span class="flag-big">${game.flag2}</span></div>
                 <div class="jogo-resultado-resumo">${game.team1} x ${game.team2}</div>
-                <div class="jogo-meta"><div class="jogo-datetime">${game.time} BRT</div><div class="jogo-local">📍 ${game.local}</div></div>
+                <div class="jogo-meta"><div class="jogo-datetime">${game.time} BRT</div><div class="jogo-local">📍 ${game.local || ''} ${game.tv ? ' | ' + game.tv : ''}</div></div>
               </div>`;
             }).join("");
           }
