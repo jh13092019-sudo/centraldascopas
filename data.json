@@ -1,27 +1,26 @@
 {
-  "current_date": "29 de Julho de 2026",
-  "competicao": "Copa do Brasil & Brasileirão 2026",
+  "current_date": "30 de Julho de 2026",
+  "competicao": "Libertadores, Sul-Americana e Regionais",
   "ticker": [
-    {"team1": "Grêmio", "score": "1 x 0", "team2": "Corinthians", "status": "live", "minute": "28"},
-    {"team1": "Vasco", "score": "0 x 0", "team2": "Atlético-GO", "status": "live", "minute": "15"},
-    {"team1": "Flamengo", "score": "-", "team2": "Palmeiras", "status": "upcoming"},
-    {"team1": "Botafogo", "score": "-", "team2": "Bahia", "status": "upcoming"},
+    {"team1": "O'Higgins", "score": "0 x 0", "team2": "Boca Juniors", "status": "upcoming", "time": "21:30"},
+    {"team1": "Caracas", "score": "0 x 0", "team2": "Santa Fe", "status": "upcoming", "time": "21:30"},
+    {"team1": "Cruzeiro", "score": "-", "team2": "Atlético-MG", "status": "upcoming"},
+    {"team1": "Grêmio", "score": "-", "team2": "Bolívar", "status": "upcoming"},
     {"team1": "Espanha", "score": "1 x 0", "team2": "Argentina", "status": "finished", "label": "CAMPEÃ DO MUNDO"}
   ],
   "hoje_jogos": [
-    {"time": "19:00", "team1_name": "Vasco", "score": "0 x 0", "team2_name": "Atlético-GO"},
-    {"time": "19:00", "team1_name": "Grêmio", "score": "1 x 0", "team2_name": "Corinthians"},
-    {"time": "20:00", "team1_name": "Flamengo", "score": "- x -", "team2_name": "Palmeiras"},
-    {"time": "21:30", "team1_name": "Botafogo", "score": "- x -", "team2_name": "Bahia"},
-    {"time": "21:30", "team1_name": "Athletico-PR", "score": "- x -", "team2_name": "RB Bragantino"}
+    {"time": "21:30", "team1_name": "O'Higgins", "score": "- x -", "team2_name": "Boca Juniors"},
+    {"time": "21:30", "team1_name": "Caracas", "score": "- x -", "team2_name": "Santa Fe"},
+    {"time": "20:00", "team1_name": "Cruzeiro", "score": "- x -", "team2_name": "Atlético-MG"},
+    {"time": "19:00", "team1_name": "Grêmio", "score": "- x -", "team2_name": "Bolívar"},
+    {"time": "21:00", "team1_name": "Coritiba", "score": "- x -", "team2_name": "Cruzeiro"}
   ],
   "jogos_hoje": [
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "Vasco", "team2": "Atlético-GO", "flag1": "⚫⚪", "flag2": "🔴⚫", "score1": "0", "score2": "0", "time": "🕖 19:00", "local": "São Januário", "status": "live", "tv": "Prime Video"},
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "Grêmio", "team2": "Corinthians", "flag1": "🔵⚫", "flag2": "⚫⚪", "score1": "1", "score2": "0", "time": "🕖 19:00", "local": "Arena do Grêmio", "status": "live", "tv": "Globo, Premiere"},
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "Flamengo", "team2": "Palmeiras", "flag1": "🔴⚫", "flag2": "🟢", "score1": "-", "score2": "-", "time": "🕘 20:00", "local": "Maracanã", "status": "upcoming", "tv": "Prime Video"},
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "Botafogo", "team2": "Bahia", "flag1": "⚫⚪", "flag2": "🔴⚪", "score1": "-", "score2": "-", "time": "🕘 21:30", "local": "Nilton Santos", "status": "upcoming", "tv": "Globo, Premiere"},
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "Athletico-PR", "team2": "RB Bragantino", "flag1": "🔴⚫", "flag2": "⚪🔴", "score1": "-", "score2": "-", "time": "🕘 21:30", "local": "Ligga Arena", "status": "upcoming", "tv": "SporTV, Premiere"},
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "CRB", "team2": "Atlético-MG", "flag1": "🔴⚪", "flag2": "⚫⚪🔴", "score1": "-", "score2": "-", "time": "🕘 19:00", "local": "Rei Pelé", "status": "upcoming", "tv": "Premiere"}
+    {"competicao": "Sul-Americana - Playoffs Oitavas", "team1": "O'Higgins", "team2": "Boca Juniors", "flag1": "🇨🇱", "flag2": "🇦🇷", "score1": "-", "score2": "-", "time": "🕘 21:30", "local": "El Teniente", "status": "upcoming", "tv": "ESPN, Disney+"},
+    {"competicao": "Sul-Americana - Playoffs Oitavas", "team1": "Caracas", "team2": "Santa Fe", "flag1": "🇻🇪", "flag2": "🇨🇴", "score1": "-", "score2": "-", "time": "🕘 21:30", "local": "Olímpico de la UCV", "status": "upcoming", "tv": "Paramount+"},
+    {"competicao": "Amistoso / Regional", "team1": "Cruzeiro", "team2": "Atlético-MG", "flag1": "🔵⚪", "flag2": "⚫⚪🔴", "score1": "-", "score2": "-", "time": "🕘 20:00", "local": "Mineirão", "status": "upcoming", "tv": "Premiere"},
+    {"competicao": "Libertadores - Fase Final", "team1": "Grêmio", "team2": "Bolívar", "flag1": "🔵⚫", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕖 19:00", "local": "Arena do Grêmio", "status": "upcoming", "tv": "Globo, Paramount+"},
+    {"competicao": "Brasileirão Sub-20 / Outros", "team1": "Coritiba", "team2": "Cruzeiro", "flag1": "⚪⚫", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕘 21:00", "local": "Couto Pereira", "status": "upcoming", "tv": "SporTV"}
   ],
   "classificacao": [
     {"flag": "🟢", "name": "Palmeiras", "P": 45, "J": 20, "V": 13, "E": 6, "D": 1, "GP": 33, "GC": 14, "SG": "+19", "pct": "75"},
@@ -46,3 +45,4 @@
     {"flag": "🟢", "name": "Chapecoense", "P": 10, "J": 20, "V": 2, "E": 4, "D": 14, "GP": 13, "GC": 38, "SG": "-25", "pct": "16"}
   ]
 }
+
