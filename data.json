@@ -1,26 +1,29 @@
 {
-  "current_date": "30 de Julho de 2026",
-  "competicao": "Libertadores, Sul-Americana e Regionais",
+  "current_date": "31 de Julho de 2026",
+  "competicao": "Oitavas de Final & Rodada 14",
   "ticker": [
-    {"team1": "O'Higgins", "score": "0 x 0", "team2": "Boca Juniors", "status": "upcoming", "time": "21:30"},
-    {"team1": "Caracas", "score": "0 x 0", "team2": "Santa Fe", "status": "upcoming", "time": "21:30"},
-    {"team1": "Cruzeiro", "score": "-", "team2": "Atlético-MG", "status": "upcoming"},
-    {"team1": "Grêmio", "score": "-", "team2": "Bolívar", "status": "upcoming"},
-    {"team1": "Espanha", "score": "1 x 0", "team2": "Argentina", "status": "finished", "label": "CAMPEÃ DO MUNDO"}
+    {"team1": "Vasco", "score": "0 x 0", "team2": "Fluminense", "status": "upcoming", "time": "17:30"},
+    {"team1": "Atlético-MG", "score": "0 x 0", "team2": "Juventude", "status": "upcoming", "time": "19:30"},
+    {"team1": "Santos", "score": "0 x 0", "team2": "Remo", "status": "upcoming", "time": "21:00"},
+    {"team1": "Cruzeiro", "score": "-", "team2": "Botafogo", "status": "upcoming", "time": "15:00"},
+    {"team1": "Fluminense", "score": "-", "team2": "Bragantino", "status": "upcoming", "time": "15:00"}
   ],
   "hoje_jogos": [
-    {"time": "21:30", "team1_name": "O'Higgins", "score": "- x -", "team2_name": "Boca Juniors"},
-    {"time": "21:30", "team1_name": "Caracas", "score": "- x -", "team2_name": "Santa Fe"},
-    {"time": "20:00", "team1_name": "Cruzeiro", "score": "- x -", "team2_name": "Atlético-MG"},
-    {"time": "19:00", "team1_name": "Grêmio", "score": "- x -", "team2_name": "Bolívar"},
-    {"time": "21:00", "team1_name": "Coritiba", "score": "- x -", "team2_name": "Cruzeiro"}
+    {"time": "17:30", "team1_name": "Vasco", "score": "- x -", "team2_name": "Fluminense"},
+    {"time": "19:30", "team1_name": "Atlético-MG", "score": "- x -", "team2_name": "Juventude"},
+    {"time": "21:00", "team1_name": "Santos", "score": "- x -", "team2_name": "Remo"},
+    {"time": "15:00", "team1_name": "Cruzeiro", "score": "- x -", "team2_name": "Botafogo"},
+    {"time": "15:00", "team1_name": "Fluminense", "score": "- x -", "team2_name": "Bragantino"}
   ],
   "jogos_hoje": [
-    {"competicao": "Sul-Americana - Playoffs Oitavas", "team1": "O'Higgins", "team2": "Boca Juniors", "flag1": "🇨🇱", "flag2": "🇦🇷", "score1": "-", "score2": "-", "time": "🕘 21:30", "local": "El Teniente", "status": "upcoming", "tv": "ESPN, Disney+"},
-    {"competicao": "Sul-Americana - Playoffs Oitavas", "team1": "Caracas", "team2": "Santa Fe", "flag1": "🇻🇪", "flag2": "🇨🇴", "score1": "-", "score2": "-", "time": "🕘 21:30", "local": "Olímpico de la UCV", "status": "upcoming", "tv": "Paramount+"},
-    {"competicao": "Amistoso / Regional", "team1": "Cruzeiro", "team2": "Atlético-MG", "flag1": "🔵⚪", "flag2": "⚫⚪🔴", "score1": "-", "score2": "-", "time": "🕘 20:00", "local": "Mineirão", "status": "upcoming", "tv": "Premiere"},
-    {"competicao": "Libertadores - Fase Final", "team1": "Grêmio", "team2": "Bolívar", "flag1": "🔵⚫", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕖 19:00", "local": "Arena do Grêmio", "status": "upcoming", "tv": "Globo, Paramount+"},
-    {"competicao": "Brasileirão Sub-20 / Outros", "team1": "Coritiba", "team2": "Cruzeiro", "flag1": "⚪⚫", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕘 21:00", "local": "Couto Pereira", "status": "upcoming", "tv": "SporTV"}
+    {"competicao": "Oitavas de Final", "team1": "Vasco", "team2": "Fluminense", "flag1": "⚫⚪", "flag2": "🔴🟢⚪", "score1": "-", "score2": "-", "time": "🕖 17:30", "local": "São Januário", "status": "upcoming", "tv": "SporTV, Premiere"},
+    {"competicao": "Oitavas de Final", "team1": "Atlético-MG", "team2": "Juventude", "flag1": "⚫⚪🔴", "flag2": "🟢⚪", "score1": "-", "score2": "-", "time": "🕖 19:30", "local": "Arena MRV", "status": "upcoming", "tv": "Premiere"},
+    {"competicao": "Oitavas de Final", "team1": "Santos", "team2": "Remo", "flag1": "⚪🔴", "flag2": "🔴⚪", "score1": "-", "score2": "-", "time": "🕘 21:00", "local": "Vila Belmiro", "status": "upcoming", "tv": "SporTV, Premiere"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Cruzeiro", "team2": "Botafogo", "flag1": "🔵⚪", "flag2": "⚫⚪", "score1": "-", "score2": "-", "time": "🕘 15:00", "local": "Toca da Raposa", "status": "upcoming", "tv": "TV Globo, Premiere"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Fluminense", "team2": "Bragantino", "flag1": "🔴🟢⚪", "flag2": "⚪🔴", "score1": "-", "score2": "-", "time": "🕘 15:00", "local": "CT Vale das Laranjeiras", "status": "upcoming", "tv": "ge.globo"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Grêmio", "team2": "América-MG", "flag1": "🔵⚫", "flag2": "🟢⚫", "score1": "-", "score2": "-", "time": "🕘 16:00", "local": "CT Hélio Dourado", "status": "upcoming", "tv": "Premiere"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Mixto-MT", "team2": "Atlético-MG", "flag1": "⚪⚫", "flag2": "⚫⚪🔴", "score1": "-", "score2": "-", "time": "🕘 18:00", "local": "Arena Pantanal", "status": "upcoming", "tv": "SporTV"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Vitória", "team2": "São Paulo", "flag1": "🔴⚫", "flag2": "⚪🔴⚫", "score1": "-", "score2": "-", "time": "🕘 21:00", "local": "Barradão", "status": "upcoming", "tv": "Premiere"}
   ],
   "classificacao": [
     {"flag": "🟢", "name": "Palmeiras", "P": 45, "J": 20, "V": 13, "E": 6, "D": 1, "GP": 33, "GC": 14, "SG": "+19", "pct": "75"},
@@ -45,4 +48,3 @@
     {"flag": "🟢", "name": "Chapecoense", "P": 10, "J": 20, "V": 2, "E": 4, "D": 14, "GP": 13, "GC": 38, "SG": "-25", "pct": "16"}
   ]
 }
-
