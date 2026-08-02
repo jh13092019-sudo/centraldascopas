@@ -1,27 +1,29 @@
 {
   "current_date": "02 de Agosto de 2026",
-  "competicao": "Copa do Brasil & Brasileirão 2026",
+  "competicao": "Oitavas de Final & Rodada 14",
   "ticker": [
-    {"team1": "Palmeiras", "score": "1 x 0", "team2": "Fortaleza", "status": "live", "minute": "32"},
-    {"team1": "Santos", "score": "2 x 1", "team2": "Juventude", "status": "finished", "label": "FEMININO"},
-    {"team1": "Vasco", "score": "0 x 0", "team2": "Fluminense", "status": "finished", "label": "COPA DO BRASIL"},
-    {"team1": "Boca Juniors", "score": "0 x 1", "team2": "O'Higgins", "status": "finished", "label": "BOCA NOS PÊNALTIS"},
-    {"team1": "Espanha", "score": "1 x 0", "team2": "Argentina", "status": "finished", "label": "CAMPEÃ DO MUNDO"}
+    {"team1": "Palmeiras", "score": "0 x 0", "team2": "Fortaleza", "status": "live", "minute": "45"},
+    {"team1": "Palmeiras", "score": "0 x 0", "team2": "Internacional", "status": "live", "label": "FEMININO"},
+    {"team1": "Santos", "score": "0 x 0", "team2": "Juventude", "status": "live", "label": "FEMININO"},
+    {"team1": "Mirassol", "score": "-", "team2": "Grêmio", "status": "upcoming", "time": "18:00"},
+    {"team1": "Chapecoense", "score": "-", "team2": "Cruzeiro", "status": "upcoming", "time": "18:30"}
   ],
   "hoje_jogos": [
-    {"time": "16:00", "team1_name": "Palmeiras", "score": "1 x 0", "team2_name": "Fortaleza"},
-    {"time": "18:00", "team1_name": "Mirassol", "score": "- x -", "team2_name": "Remo"},
-    {"time": "18:30", "team1_name": "Chapecoense", "score": "- x -", "team2_name": "Vasco"},
-    {"time": "18:00", "team1_name": "Ferroviária", "score": "- x -", "team2_name": "Real Brasília"},
-    {"time": "11:00", "team1_name": "Santos", "score": "2 x 1", "team2_name": "Juventude"}
+    {"time": "16:00", "team1_name": "Palmeiras", "score": "0 x 0", "team2_name": "Fortaleza"},
+    {"time": "18:00", "team1_name": "Mirassol", "score": "- x -", "team2_name": "Grêmio"},
+    {"time": "18:30", "team1_name": "Chapecoense", "score": "- x -", "team2_name": "Cruzeiro"},
+    {"time": "19:30", "team1_name": "Internacional", "score": "- x -", "team2_name": "Corinthians"},
+    {"time": "11:00", "team1_name": "Palmeiras", "score": "0 x 0", "team2_name": "Internacional"},
+    {"time": "11:00", "team1_name": "Santos", "score": "0 x 0", "team2_name": "Juventude"}
   ],
   "jogos_hoje": [
-    {"competicao": "Copa do Brasil - Oitavas", "team1": "Palmeiras", "team2": "Fortaleza", "flag1": "🟢", "flag2": "🔴🔵⚪", "score1": "1", "score2": "0", "time": "🕖 16:00", "local": "Allianz Parque", "status": "live", "tv": "Globo, SporTV, Premiere, Prime Video"},
-    {"competicao": "Brasileirão Série B", "team1": "Mirassol", "team2": "Remo", "flag1": "🟡🟢", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕘 18:00", "local": "Maião", "status": "upcoming", "tv": "Prime Video"},
-    {"competicao": "Brasileirão Série B", "team1": "Chapecoense", "team2": "Vasco", "flag1": "🟢⚪", "flag2": "⚫⚪", "score1": "-", "score2": "-", "time": "🕘 18:30", "local": "Arena Condá", "status": "upcoming", "tv": "SporTV, Premiere"},
-    {"competicao": "Brasileirão Feminino", "team1": "Santos", "team2": "Juventude", "flag1": "⚪⚫", "flag2": "🟢⚪", "score1": "2", "score2": "1", "time": "🕖 11:00", "local": "Vila Belmiro", "status": "finished", "tv": "N Sports"},
-    {"competicao": "Brasileirão Feminino", "team1": "Palmeiras", "team2": "Internacional", "flag1": "🟢", "flag2": "🔴⚪", "score1": "1", "score2": "0", "time": "🕖 11:00", "local": "Jayme Cintra", "status": "finished", "tv": "SporTV"},
-    {"competicao": "Brasileirão Feminino", "team1": "Ferroviária", "team2": "Real Brasília", "flag1": "🔴⚪", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕘 18:00", "local": "Fonte Luminosa", "status": "upcoming", "tv": "SporTV"}
+    {"competicao": "Oitavas de Final", "team1": "Palmeiras", "team2": "Fortaleza", "flag1": "🟢", "flag2": "🔴🔵⚪", "score1": "0", "score2": "0", "time": "🕖 16:00", "local": "Allianz Parque", "status": "live", "tv": "Globo, SporTV, Premiere, Prime Video"},
+    {"competicao": "Oitavas de Final", "team1": "Mirassol", "team2": "Grêmio", "flag1": "🟡🟢", "flag2": "🔵⚫", "score1": "-", "score2": "-", "time": "🕘 18:00", "local": "Maião", "status": "upcoming", "tv": "Premiere"},
+    {"competicao": "Oitavas de Final", "team1": "Chapecoense", "team2": "Cruzeiro", "flag1": "🟢⚪", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕘 18:30", "local": "Arena Condá", "status": "upcoming", "tv": "SporTV, Premiere"},
+    {"competicao": "Oitavas de Final", "team1": "Internacional", "team2": "Corinthians", "flag1": "🔴⚪", "flag2": "⚫⚪", "score1": "-", "score2": "-", "time": "🕘 19:30", "local": "Beira-Rio", "status": "upcoming", "tv": "Premiere"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Palmeiras", "team2": "Internacional", "flag1": "🟢", "flag2": "🔴⚪", "score1": "0", "score2": "0", "time": "🕖 11:00", "local": "Jayme Cintra", "status": "live", "tv": "SporTV"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Santos", "team2": "Juventude", "flag1": "⚪⚫", "flag2": "🟢⚪", "score1": "0", "score2": "0", "time": "🕖 11:00", "local": "Vila Belmiro", "status": "live", "tv": "N Sports"},
+    {"competicao": "Rodada 14 - Primeira Fase", "team1": "Ferroviária", "team2": "Bahia", "flag1": "🔴⚪", "flag2": "🔴⚪", "score1": "-", "score2": "-", "time": "🕘 18:00", "local": "Fonte Luminosa", "status": "upcoming", "tv": "SporTV"}
   ],
   "classificacao": [
     {"flag": "🟢", "name": "Palmeiras", "P": 47, "J": 21, "V": 14, "E": 5, "D": 2, "GP": 38, "GC": 16, "SG": "+22", "pct": "75"},
