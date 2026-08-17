@@ -1,0 +1,47 @@
+{
+  "current_date": "16 de Agosto de 2026",
+  "competicao": "Brasileirão Série A 2026 - 23ª Rodada",
+  "ticker": [
+    {"team1": "Vasco", "score": "0 x 0", "team2": "Santos", "status": "live", "minute": "12"},
+    {"team1": "Atlético-MG", "score": "0 x 0", "team2": "Grêmio", "status": "live", "minute": "10"},
+    {"team1": "Chapecoense", "score": "1 x 2", "team2": "Bahia", "status": "finished", "label": "ENCERRADO"},
+    {"team1": "Fluminense", "score": "3 x 2", "team2": "Palmeiras", "status": "finished", "label": "ONTEM"},
+    {"team1": "Espanha", "score": "1 x 0", "team2": "Argentina", "status": "finished", "label": "CAMPEÃ DO MUNDO"}
+  ],
+  "hoje_jogos": [
+    {"time": "16:00", "team1_name": "Vasco", "score": "0 x 0", "team2_name": "Santos"},
+    {"time": "16:00", "team1_name": "Atlético-MG", "score": "0 x 0", "team2_name": "Grêmio"},
+    {"time": "11:00", "team1_name": "Chapecoense", "score": "1 x 2", "team2_name": "Bahia"},
+    {"time": "18:30", "team1_name": "Internacional", "score": "- x -", "team2_name": "Cruzeiro"},
+    {"time": "18:30", "team1_name": "Botafogo", "score": "- x -", "team2_name": "Flamengo"}
+  ],
+  "jogos_hoje": [
+    {"competicao": "Brasileirão Série A - 23ª Rodada", "team1": "Vasco", "team2": "Santos", "flag1": "⚫⚪", "flag2": "⚪🔴", "score1": "0", "score2": "0", "time": "🕖 16:00", "local": "São Januário", "status": "live", "tv": "Globo, Premiere"},
+    {"competicao": "Brasileirão Série A - 23ª Rodada", "team1": "Atlético-MG", "team2": "Grêmio", "flag1": "⚫⚪🔴", "flag2": "🔵⚫", "score1": "0", "score2": "0", "time": "🕖 16:00", "local": "Arena MRV", "status": "live", "tv": "Globo (MG/RS), Premiere"},
+    {"competicao": "Brasileirão Série A - 23ª Rodada", "team1": "Chapecoense", "team2": "Bahia", "flag1": "🟢⚪", "flag2": "🔴⚪", "score1": "1", "score2": "2", "time": "🕖 11:00", "local": "Arena Condá", "status": "finished", "tv": "Premiere"},
+    {"competicao": "Brasileirão Série A - 23ª Rodada", "team1": "Internacional", "team2": "Cruzeiro", "flag1": "🔴⚪", "flag2": "🔵⚪", "score1": "-", "score2": "-", "time": "🕘 18:30", "local": "Beira-Rio", "status": "upcoming", "tv": "Premiere"},
+    {"competicao": "Brasileirão Série A - 23ª Rodada", "team1": "Botafogo", "team2": "Flamengo", "flag1": "⚫⚪", "flag2": "🔴⚫", "score1": "-", "score2": "-", "time": "🕘 18:30", "local": "Nilton Santos", "status": "upcoming", "tv": "Premiere"}
+  ],
+  "classificacao": [
+    {"flag": "🟢", "name": "Palmeiras", "P": 48, "J": 23, "V": 14, "E": 6, "D": 3, "GP": 40, "GC": 19, "SG": "+21", "pct": "69"},
+    {"flag": "🔴⚫", "name": "Flamengo", "P": 42, "J": 22, "V": 12, "E": 6, "D": 4, "GP": 39, "GC": 18, "SG": "+21", "pct": "63"},
+    {"flag": "🔴⚫", "name": "Athletico-PR", "P": 38, "J": 23, "V": 11, "E": 5, "D": 7, "GP": 28, "GC": 20, "SG": "+8", "pct": "55"},
+    {"flag": "🔴🟢⚪", "name": "Fluminense", "P": 37, "J": 23, "V": 11, "E": 4, "D": 8, "GP": 30, "GC": 23, "SG": "+7", "pct": "53"},
+    {"flag": "⚪🔴", "name": "Bahia", "P": 35, "J": 23, "V": 10, "E": 5, "D": 8, "GP": 30, "GC": 26, "SG": "+4", "pct": "50"},
+    {"flag": "⚪🔴⚫", "name": "São Paulo", "P": 33, "J": 23, "V": 9, "E": 6, "D": 8, "GP": 29, "GC": 23, "SG": "+6", "pct": "47"},
+    {"flag": "⚫⚪", "name": "Botafogo", "P": 32, "J": 22, "V": 9, "E": 5, "D": 8, "GP": 25, "GC": 23, "SG": "+2", "pct": "48"},
+    {"flag": "🔵⚪", "name": "Cruzeiro", "P": 30, "J": 22, "V": 9, "E": 3, "D": 10, "GP": 25, "GC": 21, "SG": "+4", "pct": "45"},
+    {"flag": "⚪🔴", "name": "RB Bragantino", "P": 29, "J": 23, "V": 7, "E": 8, "D": 8, "GP": 27, "GC": 23, "SG": "+4", "pct": "42"},
+    {"flag": "⚫⚪🔴", "name": "Atlético-MG", "P": 28, "J": 22, "V": 7, "E": 7, "D": 8, "GP": 26, "GC": 28, "SG": "-2", "pct": "42"},
+    {"flag": "⚫⚪", "name": "Corinthians", "P": 26, "J": 22, "V": 6, "E": 8, "D": 8, "GP": 22, "GC": 22, "SG": "0", "pct": "39"},
+    {"flag": "⚪⚫", "name": "Coritiba", "P": 24, "J": 23, "V": 6, "E": 6, "D": 11, "GP": 21, "GC": 27, "SG": "-6", "pct": "34"},
+    {"flag": "⚫⚪", "name": "Vasco", "P": 24, "J": 22, "V": 7, "E": 3, "D": 12, "GP": 22, "GC": 32, "SG": "-10", "pct": "36"},
+    {"flag": "⚪🔴", "name": "Santos", "P": 23, "J": 22, "V": 5, "E": 8, "D": 9, "GP": 20, "GC": 28, "SG": "-8", "pct": "34"},
+    {"flag": "🔵⚫", "name": "Grêmio", "P": 22, "J": 22, "V": 5, "E": 7, "D": 10, "GP": 19, "GC": 27, "SG": "-8", "pct": "33"},
+    {"flag": "🔴⚪", "name": "Internacional", "P": 21, "J": 22, "V": 5, "E": 6, "D": 11, "GP": 18, "GC": 22, "SG": "-4", "pct": "31"},
+    {"flag": "🔴⚫", "name": "Vitória", "P": 20, "J": 22, "V": 5, "E": 5, "D": 12, "GP": 20, "GC": 33, "SG": "-13", "pct": "30"},
+    {"flag": "🔴⚪", "name": "Mirassol", "P": 19, "J": 22, "V": 5, "E": 4, "D": 13, "GP": 18, "GC": 27, "SG": "-9", "pct": "28"},
+    {"flag": "🔴⚪", "name": "Remo", "P": 18, "J": 22, "V": 4, "E": 6, "D": 12, "GP": 17, "GC": 26, "SG": "-9", "pct": "27"},
+    {"flag": "🟢", "name": "Chapecoense", "P": 11, "J": 23, "V": 2, "E": 5, "D": 16, "GP": 15, "GC": 42, "SG": "-27", "pct": "15"}
+  ]
+}
